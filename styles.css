@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  background-image: url(./assets/imagen1.jpg);
+  background-repeat: no-repear;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+header {
+  text-align: center;
+  background-color: black;
+  opacity: 0.8;
+  margin: auto;
+  width: 950px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+section {
+  text-align: center;
+  background-color: black;
+  opacity: 0.75;
+ margin: auto;
+  width: 950px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.nombre-empresa{
+ color: white;
+}
+
+
+#logo {
+  align-items: auto;
+
+}
+
+#inputg {
+  width: 35ch;
+  height: 35px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bolder;
+  background-color: #b90b0b;
+  border-color: #000000;
+}
+
+
+#button{
+  width: 15ch;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bolder;
+  background-color: #b90b0b;
+  border-color: #000000;
+  
+}
+
+
+#label{
+  color: white;
+ }
+ 
