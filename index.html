@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <!link rel="stylesheet" href="./css/bootstrap.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+        <title>Acerca de nosotros</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                color: inherit;
+
+                font-family: "Teko", sans-serif;
+            }
+
+            .navbar {
+                color: white;
+                background-color: #333;
+            }
+
+            .navbar::after {
+                content: " ";
+                display: block;
+                height: 5px;
+                background: #e42313;
+                width: 100%;
+                left: 100%;
+                top: calc(50% - 2px);
+            }
+
+            .navbar-nav {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .container-fluid {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .navbar-toggler {
+                display: none;
+            }
+
+            .nav-link {
+                display: inline-block;
+                text-decoration: none;
+                transition: 0.5s ease all;
+
+                padding: 1em;
+            }
+
+            .nav-link:hover {
+                color: #e42313 !important;
+                background-color: #222;
+            }
+
+            .banner-img {
+                width: 100%;
+                display: block;
+            }
+
+            .section-bar {
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+
+                background-color: #e42313;
+                color: white;
+
+                padding: 1em;
+
+                font-weight: bolder;
+                font-size: 110%;
+            }
+
+            .product-container {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                overflow: scroll;
+            }
+
+            .product-card {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                padding: 1em;
+
+                font-family: "Teko", sans-serif;
+            }
+
+            .product-title,
+            .product-price {
+                font-weight: bolder;
+            }
+
+            .footer {
+                display: flex;
+                flex-direction: row;
+
+                /* Space of 1/3 */
+                justify-content: space-between;
+
+                background-color: #333;
+                color: white;
+
+                padding: 2em;
+            }
+
+            .ffooter::before {
+                content: " ";
+                display: block;
+                height: 5px;
+                background: #e42313;
+                width: 100vw;
+                left: 100%;
+                top: calc(50% - 2px);
+            }
+
+            .footer-social-container ul {
+                display: flex;
+                flex-direction: row;
+
+                text-decoration: none;
+            }
+
+            .footer-social-container a {
+                text-decoration: none;
+            }
+
+            /* Small screens */
+            @media screen and (max-width: 600px) {
+                .navbar-toggler {
+                    display: block;
+                }
+
+                .navbar-collapse {
+                    display: none;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-light navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="bit.png" alt="logo" width="50" height />
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="#">Productos</a>
+                        <a class="nav-link active" aria-current="page" href="#">Servicios</a>
+                        <a class="nav-link active" aria-current="page" href="#">BiitFam</a>
+                        <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                        <a class="nav-link active" aria-current="page" href="#">Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <img
+            class="banner-img"
+            src="https://media.self.com/photos/5ea9bc77bb9c6b75996c7e91/2:1/w_3949,h_1974,c_limit/squats_woman_exercise.jpg"
+            alt=""
+            srcset=""
+        />
+
+        <div class="section-bar">PRODUCTOS</div>
+
+        <img
+            class="banner-img"
+            src="https://www.realsimple.com/thmb/TM2kU2MBoRMFzGU9Mzf22jh-0lY=/2000x1125/filters:fill(auto,1)/how-to-squats-1-3d97915d64534c419262227f56174727.jpg"
+            alt=""
+            srcset=""
+        />
+
+        <div class="section-bar">SUPLEMENTOS</div>
+
+        <section class="product-container">
+            <div class="product-card">
+                <a href="">
+                    <img
+                        class="product-img"
+                        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUSFRgVFRQZGRgYGhgYGBkaHBoYEhgYGBgZGhgcGhkcIS4lHB8rHxgYJzgmKy8xNTU2GiU7QDs0Py40NTEBDAwMEA8QHxISHzosJCQ0NTE0MTQ+OjQxMTQ9NDQxNDQ0NDY0NDQ9NDQ0NDQ0MTQ0NDQ0NDE0NDQ0NDQ0NDQ9Mf/AABEIAMYA/gMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABwIDBAUGAQj/xABMEAACAQMCAgUGCAkLAwUAAAABAgADBBESIQUxBhMiQVEHFDJhcYEjM1JykaGxwTRCc4KSk7LR0ggVQ1NUYqKzwsPTF4PwJCVEdOH/xAAaAQEBAQEBAQEAAAAAAAAAAAAAAQMCBAUG/8QAKREBAQABAgQFBAMBAAAAAAAAAAECAxETITFRBBIUMkFScaHwBUJhIv/aAAwDAQACEQMRAD8AmaIiAiIgIiICIiAiJ4YGs4txy2tADcV6dPOSAzAM2PkrzPuE5S88rXDKfovUqb8kpsPf29IkG9LeK1Lu6q1axBbUVGAAoRSVUADwAmkgfQlv5WbeqGNO2rYBwC+hQfoY/wDhmJfeVrq1LCzzjGM19Od/ycjHo98R+e32CUcePwJ+cv3wO7fy2v3WKfr8/Yko/wCt1X+xJ+tP8Eh+IEwjy3VP7En64/wTJtPLQzMFayUZOMiv9G3VmQrMrhvxqfOH2wJ7oeVFSe3aMvsqK32qJRS8sdjq01KNzTIODlUIHtw+fqkcpznI8b+PqfO+4QPpHh/lG4ZXOFu0U+FQNSH6TgL9c6mm4YAqQQdwRuCD3gz43EnnyG8SqVbarRdspQZRT23AqamYZ7xnOPb7IEpxEQEREBERAREQEREBERAREQEREBERAREt1eR58jy58u71wPkLivx9X8pU/aMxJvrnhoVmL9nJPZOWcbk4djtq8fXKKVNByphvnEY+2Bn8CcLQGSB2mO5A8By90o41WRqeNY3YciGPf3ZlKOw5JbL7SmfslzzyqOT0B83H3LA5zSnym/RH8caE+U36I/im/e/r/wBavuz+6WjxCv8A1h/xQNLoT5T/AKI/il+xKLUU6jsw5qAOfjq2m1S/r/1n05l5L2t/W0/zv/1YGfTuEPJ1P5wnL8Z+Of257jzA7xNy1w55m2b26f4ZZqjPpUaX5hX7sQOdk2fyf/i7v59L9l5FZtUY7DSfpH0AyV/Ijamk1yMHDLSIYH4M4L7EHcNv9ECXYiICIiAiIgIiICIiAiIgIiICIiAiIgJoOlfSajw2gatYkknSiD06jY5D1eJ5D6Adzc1lpqzsQqqCzMeSqASSfcJ8wdMOklTidy9ZiQgJWkmdkpg7bfKPMnx9ggU9IeOVOI3DXDoiM2FCouAqAnAJ5s25yx5+zAGPb2Gecrs6M3ltREDCocOEzqfDl8JnIoEuFwIGInD18JX5ivhLpuQJ552PGBaNgvhLT8OXwmULoSsVgYGoq8NHhNdccOHhOpYgzGrIDA46rblZJfkx8oKUBTs7oBEzppVgAoBJ2Wr9ONfsz4jjruiJorulA+uokYeRzpWbqkbSq2alBQUY+k9HOAD4lTgZ8CvrknwEREBERAREQEREBERAREQEREBERA4fyu35o8NqKDhqzJRB9THUw96ow98+fKNLBk5eW4/+io+HnKf5VWQolRc85N46xxyy6RsbQTa0XmnoVAJn0Kpb0UdvYM/ZOeJj3bTwutfhnmpMerWmWvD6rDalU/Qc/dPG4LXb+iq/q3P3S+ed09NqdvzGoqVzLBuTNy3Rq4P9FW/UvMa66N3CAEUK7f8AZcfdJ54vptT9sYKXJmXSrmYp4dcKd7er+g/8My7PhtwxA83qgHv0VCB/hjiTunp9Tt+Yy6daVM8vDg9Yf0VT9W/7p49hUA3Rx7UYfdL553PT6n7s1lwZprpMzf1rU/KX35H3TX17B+YKH87f6482PdLoak+F3yfXptuJWzA4D1BSbuBWr2N/YSp9wn03Pl7g1FlurYkf/IoHO3dVXM+oBLuyyxuPWKoiJUIiICIiAiIgIiICIiAiIgIiIEX+XWsUtKGMb1+8K3Km/wAoHxkL2HGatFiy6c4IGUQhSRgMBjmOYkzeXSmz29sqqW+FZiBzwEI/1SCalMoSrDBGxHfJtF3rbDpPfcxeXC/Nquo+hSBKG6Q3jc7y4PtrVD/qnV+T3o5TrU6t3VpLUCFaVCm5PV1bioQFBAwcAsgPMdonG0kel0atRXLtYW7aVFABFp9W9XT1jv1TKq5AVRkEkZYb4nGWeON22N6iFb+t/aKx/wC65/1Q1y551HPtdz986PppbU7fqKFGgqolMI9c0wtWvXGNYZ8atS6QcZ/HPdictO5zm6bqi7fKb9Jv3zXcUYjTud895mfNdxb8X3/dKbsEOflH6TMmxrOHTDsO0OTEffMWX7EfCJ7fuMG7plu6o5Vag9juPvnrcTrqCfOK4ABO1WoPsaWJZuhlH+afsk2hukKj0X4hlUbirJVbT8E1a55sjuqgk4fs03zgEdhh3TteCcGqUrXq7tkrVQXJfHWZUsSo1MoJIG0pr07Zqju7dsNR1gqzaXqU1VQhA2LLpBZfAZ5DHQV90PsPrHLxnk1M7eTSckK8doIl3aaEVAaiZ0qFBIqpucDfnJ6EgrpJ+FWf5Qf5iSdBNtLpWuv7MPtVURE2eYiIgIiICIiAiIgIiICIiAiIgRL5drhUS1DKWy1YjDFcaVQd3P0pCVVgWJAwCdhnJA9p5yZP5QAz5kPXcf7Mhl1Kkg9xx9EDqejHSytap1PnNSlS1agKdGlVcMdmKmoy6SR37+6dDT6bW9M0eqq37GkHVdRtQSajaqhYlH1FiBuRnmcnJkaiZFmuXX1b/VJcZR2fEeO9bTeilBaSPU6+oSzVa1SrnOtnbAHM7Ko5+G008RL0Ca3i3Nff902U1vFea+/7oGBL9l8Yvt+4yxMix+MT2/dA38t3A7Dew/ZLgnlRcgjxGIE521OhVco7anNKiXQ7IVdcImeZ9Akj++M5BAm8qUwqaQMAKQNyfrO8j6y6YWlWmhqVKtKoqqrKoGFZVC5R9sg4J8QGOQMzrOCcVpXVGo1GozqjMhLDBDaVbAP4www3yfqnh1Mcpz+HcqMek34TZ/lf9ynJzEg3pP8AhFn+V/105OYno0elba/sw+1exETZ5iIiAiIgIiICIiAiIgIiICIiBDX8oI7WXtuf9iQ1nMmX+UFysvbc/wCxIYECQbVaHU0yptOs6oCmHFtjX1dHWamrm2RW+N7/AEe6Vpa0DcdZR81KdVdLTVmt9BrdZctR103Ow0inhnAHoDPKYXFLG3p21m6UlY9mpcMutuy/NWcDTgYIK81yB35PSdLehtC3vLFLdMU7htBBJbUdaE7n+60w259ervfl0YVgluby4ULQKHToLGj1SHKdYaaViEdc6gcMpC+gZ7Ym3ZUDi10JVuC76FUvSoBDRGwaoVdjjHaZlJHaxNr5RuiVCzSi1spUPU6t8ksctgJjPrzNlx7ojZW3mqimdderTpvlmxpI7ZUdxyRv3SXGXbn1TfZpbWxsQzhmpENWepQbK6SjWyuKbA7qmp20hsYZFHMzWcTsqDdXqW3RA1s6spQO9JbZ3uhUCEse2qL2hnLbZziZvlF6O29i9JaClQ6sW1MWJOTjn3bfXKq3RC1bhJvSrdcKbMO2dGoNpyVk8u22W958ll/xz1ChbB2J6krVakyAAMuHVy6KXKmmNasoYjbs5AzD29MWwbRSUhKBRgV681TU01VODqYaNRORjbM2nDeilk9tTr1CyalBc69KAltPeNs7TaWPRPhOGYV8uqsUHXruwUkDA3O/dLLN+tXzcujjBBne9FOjFnxG2Z11pcKCpGslA+Oy2k76czC6E9D/ADurVFyrKlLKMASp6zPIHwGDNrlJv/jPZxrEAb8pKnkk/A7j1XD/AOTSM4ktb079RbAiklTSrks7NpyGbbcgnljwnbeST8Euf/sv/kUpnrX/AIdTq5jpR+E2f5Y/t0pOgkGdKfwmz/LH9ulJzEaPRtrezD7V7ERNnnIiICIiAiIgIiICIiAiIgIiIEN/ygRtZe25+yjIXEmj+UEOzZ+24+yjIYECZ7A1Tw1a2m6NMWTU/NwKfmzEUmp9Z6erBPbzp8ec6jgFMXttwu4IyaW7H5JWg6Mf00UfnTjeG1KFO3t6ztardeaaKbvWqq4plKlNc0FQq7YJHpDOBym78jPF08xalUdVNKq4AZgp0uA+wPPctPPnjdt53WOp4vRS/pFQM9VdU1IHjTqqHPuVifdOZ8oF5/7jYU+5KiOfaz4+wCe+TLjYqPeJUYLqqmsNRA9MkNz78qDOa6U3wqcYVgchKlFARuOyVBx78xjjZlt8QSN0q6O2t4yNc1ShVSFAdUyM7nfc85ruPcPpW/Ca1Gi+umlNwrFgx9LJGpdtpovLG4LWxVgfjASDn5JxtL/DiDwBxnfq63t9Mzm43yy2/K/LUcJtEuOG0qdR9KsgDNkDGHJ5tsNwB75ZodA7EI7i4csiM6r1lPtMqkgYAyckd0ucGsRc8MpUS2kOmCw3IxUJ2B9n1ym08mFNlZ/OqvZVmwFAzpBOM6tuUsu1vPbmbcmq6EcdazuEc+g+EceIPfjxBkmdP+KiztX6oaalyxUMBjcqNTn16VAkM2hyyfOT9oST/K5+D2vzz/lmaZ4y5REb8LA62ny9IDfcfWrZ94MlDyXW7U7a5VsZ84LbHIw1vRYb+w+4yL+GVFStTZzhVcFjvsBz5b/RvJA6HdJ7O2o1lq1wheorL2ajagLeihbZSfSRhvvkSastx2ixpOlP4TZ/lj+3Sk4iQFxfidG5uLU0X1ha3aOl0xqqU8emBnkZPojSm05ttb2YfaqoiJs85ERAREQEREBERAREQEREBERAi/y02K1adsXLdlqmNOPxgniD4CQw9oqVtIyVKg9rnuAe4CTj5YR8DR+e/wCyJCl38cPmic5e2ttCS6kl7tnY07MU1Fa3rtUAbUVYdXzbRgawcY055bjbwN/hVKzLsGt665ZiGViStPNPAbSdyQKmSBtqAHMMmJTmbww9v3H7RPNNa3k+zf4rT233rY07ezJ7S3KDUQSgc1CuF0tyK89ZK+zGOctUbO10hne5D47WFY74XGk9Wf7wAz3DJHfl5jfu3JOAPWdp3xKwv8dhOe9YVKzteyHq3J27TKHFNXGvdVakWZSNA5Ag6zyIxztakNSdYaoAD5CqQFwpKaWJOSWyCNIAGNznbtms6wz8GdmCc1I1EgAZzyJI35bzWcW4ZXOkii2+MbrghuR58uW/LceMvFrL0ej9bl2oUCR2qvIDccjgjBwvIbcs8sY3yK/NqAwVasW1DkMbal3B059En3jlMitaVUOGpsDgHGxGDqIOxx+I36MzbDhlcuhFF92wOW55ePrG/rjiVxPCadvubFbO2BBFWtgMSSEfWV7ivwYAbON877nblLN5bpp+Daq7FxkMHxp0nLHKDDasjGTtv3nG780rAAmm2Oz4fjMEH+I4+vlvPVsqzEgUySACd15MCVPPcHScHv27yMuLXU8JpfU1LcLp+Ln3j90pbh1MdzfT+6bJ6Lqqsy4V/ROQc9+cA5AOeZ57+Bll+RnHmvd7sdDRs3xkaSyQLXoADbrU/bWfTE+abb8Ioflaf7az6Wm2Hy+b42SeWTsqiImjwkREBERAREQEREBERAREQERECPPK+ubakfCof2ZCN2PhVP8AcH3yafLNdtStqJUKdVUg6hkY0Me4iQu1frXDFQMKFAHLbO+/fvOMsptXp8Np5XPGzpuzafKZvDfT9x+6YSTM4b6Y9hnhnV+qvtbmeM2N/Ag+rY5ieMcb++bPNn7a2lXi1UNlqOBnUV+EALo4KuTnOpSmOfcc5zMDjHHq2hVFIYKMintnKFWQ5BOGx8o8intl2nxi5B2q4yeZVMZY7kkr4nM94ma+Qi31DSp0hmamFxUDKxyV54yCRkjMlkj5nlkvORzB4i65zQGNCK2QwOFVgraua51nOPCZttx+sCF6kZ79n3RsEZH5oOfVKLmtWYVA15SYaC5wVHWai6so7IOrAP0r6sZdCrWGo+f0R6G/YLlE1uFAAxqy3o95OM7Tq7bOZJv0bhOI1Ao+BAwUYtpcNqQAAnf5A0+zfnPf54qatQUYwm3aYfBlmpknOSVLZyfkjPfMf+d67qVaqxBUqQQu6MMEcu8E/TNhw+krURquCgfWrJlFGkOg3LfinV9LA4wpzNtlsk52Ndc3TuFDKEVR2diOwqhUXLHdVGd/7xyZgPdoAe2JmcbDmgtd6jP1msLqxrVabqm5zufcPfOi4Xw1UaglW3phzTDdaKKdToLUGdT1r5rPo16quOz1h0g4M7xxlm9c5+Ly0tscZEf2ZBuLcjka1P8AbWfSwnzRw/T5zQ040+cLpxy09cNOD3jGJ9LrNMOtefxeXmmNvzFURE0eMiIgIiICIiAiWOunvXCBeiWeuE964QLsS11wjrhAuxLXXCe9aIEaeXCs6WlBkZgevwSM4wUfY9x5cjIYt+OVUOSKbep6dNvpOnP1ycvLLbtUsFZf6OsjN7Cjrn6WEgF08RJcZesdY55Y9K6mjxxGQM1K01EkEaGRlO+D2Ky9nGN8d/Lxzre7paiq21JmVQxK1ayqQWIGntvnYZx3Z9WZwoUeErUAHOOU44WHZrPFa0/tUjJe02xi0BB1jIuKgHYKq3OieRb6ifCW6t9SCGo1q4UYzpuFZ8EgA4NAbEnn6jOG86b1Q3EHxjII8DnH0Zk4OP7V9Xq/VUgsKAwDTqb6hkV6bDKkhh8TzGG+j1jOBf07ZgD1VwV+V1tMKOyrbg0tR2YchONXibjONs7HBYZ3zvvvvvLVe9d+bHlpxqYjTsMbnlgDb1CTgzvUnidSfLozbW5yVpVcAkE9chAZc6htS3wRjIyNxzlaULYYxSqkklfj0A1LjIyKB7zj3TlvOXGO22wwO0dhgDA32GANvVArPnOps4xnUc4xjGc8sbYl4U7r6nU7pIBRVz5qxA0gnzrIGogD0LfJ9Icu7J7jLVxf06YVjaIdXLFy792dyEA78ZB33xnBnBU7plAAxt4iVm9fxA90cHH9rnj6nd1V5xdKiMqWyIWx2w9R3GCDtqbT3Y3HfLP87EcqNuD49XljjxZiTn2e7E5drx/l/UP3S2a7nmzfSZ3MccZtGeWWWV3yrpOGcWrC6t6YqEI1emWVQFzqqqTlgNWDk7Z9U+mxPl3oVaPUvbZQD8dTPuVwxP0Az6e60SySdEtt6rsS11ojrhKi7EtdcI64QLsSz1wjrhAvRLPXR1wgaJrsylrwzJaxlpuHmBYN8ZSeImXW4efCWH4c3hA9biZls8WlD8Pbwll7BvCBkHjEoPHJhPZt4TFqWpHdAzOKcRS4pPRf0XUqfUean3EA+6QnxWxam7Kw3B90lG5Qr3TlOPOlQdpTkcmxv7IHCMkoImVXK58JYOIFueESrM8yIFOIxKtoMCnE9AnoIjaB5PcT3InogAsvUqeZSpHeZt+EhCwLKSPDxgdl5O7UUHNw43AKp45YYZvoyPeZIA46PGcTY19YAC4HIDuAm4o0Se6B0A41KxxeainaN4TJSybwgbAcUlQ4jMVLBvCX04e3hAujiBla3xlCcPbwl5eHmB4LwyoXRla2BlwWUDc6R4RoERA80jwjQPCeRAFB4TzqV8IiB55svyRKGs6Z/FERAsvwmi3NBMKv0VtanOmIiBp7ryb2FTmhHsM1Nx5HbE7h6q+wg/aJ5EDCfyK0PxbuqPaqmYz+RJfxb5vfTH8cRAsN5EH7r8e+if8AklP/AEQf+3L+pP8AyT2IHg8h7/29f1J/5Jdp+RE9999FLH+uexAyE8iVP8a9f3Iv75k0fIxaj0ris36I+yIgbO28k/D6fdUb2sP3TcW3QayT0aZ95iIGypdH7dOVMTKXhtMclERAuC0QfiiV9QvhEQPeqXwjQPCIge6R4RpHhEQPdI8I0xED/9k="
+                        alt=""
+                    />
+                </a>
+                <h3 class="product-title">Proteina</h3>
+                <p class="product-price">$155.0</p>
+                <button>Agregar a carrito</button>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-img-container">
+                <img
+                    src="data:image/png;base64,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"
+                    alt=""
+                />
+            </div>
+            <div class="footer-info-container">
+                <h3>Información</h3>
+                <ul>
+                    <li><a href="#">Sobre nosotros</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Terminos y condiciones</a></li>
+                </ul>
+            </div>
+            <div class="footer-social-container">
+                <h3>Redes sociales</h3>
+                <ul>
+                    <li><a href="#" class="material-symbols-rounded"> favorite </a></li>
+                    <li><a href="#" class="material-symbols-rounded"> favorite </a></li>
+                    <li><a href="#" class="material-symbols-rounded"> favorite </a></li>
+                </ul>
+            </div>
+        </footer>
+
+        <script src="./javascript.js"></script>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
