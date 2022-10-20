@@ -31,11 +31,17 @@ main {
 
 html{
   font-size: 20px;
-  @media screen and (max-width 600px){
-    font-size: 12px;
+  @media screen and (max-width 858px){
+
+      font-size: 12px;
     
   }
 }
+
+
+
+
+
 
 #logo{
   margin-left: 35px;
@@ -53,7 +59,7 @@ html{
 
 
 
-#menu{
+#MenuNavegacion{
 display: flex;
 justify-content:flex-end;
 }

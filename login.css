@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap')
-
-
-
-*{
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap') * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -33,7 +29,6 @@ body {
 
 }
 
-
 html{
   font-size: 20px;
   @media screen and (max-width 600px){
@@ -42,7 +37,8 @@ html{
   }
 }
 
-#logo{
+
+#logo {
   margin-left: 35px;
 }
 
@@ -66,28 +62,26 @@ html{
   top: calc(50% - 2px);
 }
 
-.navbar-dark{
+.navbar-dark {
   background: #231e1e;
 }
 
 
-.nav-link:hover{
-  background: red; 
+.nav-link:hover {
+  background: red;
   box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
 }
 
- #img {
+#img {
   margin-inline-start: 80px;
- 
- }
-
-#menu{
-display: flex;
-justify-content:flex-end;
 
 }
 
-
+#MenuNavegacion{
+  display: flex;
+  justify-content:flex-end;
+  }
+  
 
 #cuadrado {
   text-align: center;
@@ -111,11 +105,9 @@ justify-content:flex-end;
 
 }
 
-.nombre-empresa{
- color: white;
+.nombre-empresa {
+  color: white;
 }
-
-
 
 
 #inputg {
@@ -127,10 +119,11 @@ justify-content:flex-end;
   font-weight: bolder;
   background-color: #b90b0b;
   border-color: #000000;
+  color: #000000;
 }
 
 
-#button{
+#button {
   width: 15ch;
   height: 40px;
   font-size: 20px;
@@ -139,29 +132,28 @@ justify-content:flex-end;
   font-weight: bolder;
   background-color: #b90b0b;
   border-color: #000000;
-  
+
 }
 
 
-#label{
+#label {
   color: white;
- }
- 
+}
 
 
 
- .btn:hover{
-  background: red; 
+
+.btn:hover {
+  background: red;
   box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
 }
 
-  
+
 footer {
   margin-top: auto;
 }
 
 main {
-
 
   margin-top: auto;
 }
