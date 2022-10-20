@@ -16,11 +16,16 @@
 
 body {
   font-family: "Teko", sans-serif;
+
   background-image: url(./assets/imagen1.jpg);
   background-repeat: no-repear;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+
+  padding: 0;
+  margin: 0;
+  font-family: "Teko", sans-serif;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -83,9 +88,6 @@ justify-content:flex-end;
 }
 
 
-nav a {
-
-}
 
 #cuadrado {
   text-align: center;
@@ -155,5 +157,11 @@ nav a {
 
   
 footer {
+  margin-top: auto;
+}
+
+main {
+
+
   margin-top: auto;
 }
