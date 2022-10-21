@@ -1,80 +1,12 @@
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: inherit;
-
-    font-family: "Teko", sans-serif;
-}
-
-.navbar {
-    color: white;
-    background-color: #333;
-}
-
-.navbar::after {
-    content: " ";
-    display: block;
-    height: 5px;
-    background: #e42313;
-    width: 100%;
-    left: 100%;
-    top: calc(50% - 2px);
-}
-
-.navbar-nav {
-    display: flex;
-    flex-direction: row;
-}
-
-.container-fluid {
-    display: flex;
-    justify-content: space-between;
-}
-
-.navbar-toggler {
-    display: none;
-}
-
-.nav-link {
-    display: inline-block;
-    text-decoration: none;
-    transition: 0.5s ease all;
-
-    padding: 1em;
-}
-
-
- .nav-link:hover{
- background: red; 
- box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
-}
-
 .banner-img {
+    display: inline-block;
     width: 100%;
-    display: block;
-}
-
-.section-bar {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-
-    background-color: #e42313;
-    color: white;
-
-    padding: 1em;
-
-    font-weight: bolder;
-    font-size: 110%;
 }
 
 .product-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 
     overflow: scroll;
@@ -96,47 +28,6 @@
     font-weight: bolder;
 }
 
-.footer {
-    display: flex;
-    flex-direction: row;
-
-    /* Space of 1/3 */
-    justify-content: space-between;
-
-    background-color: #333;
-    color: white;
-
-    padding: 2em;
-}
-
-.ffooter::before {
-    content: " ";
-    display: block;
-    height: 5px;
-    background: #e42313;
-    width: 100vw;
-    left: 100%;
-    top: calc(50% - 2px);
-}
-
-.footer-social-container ul {
-    display: flex;
-    flex-direction: row;
-
-    text-decoration: none;
-}
-
-.footer-social-container a {
-    text-decoration: none;
-}
-
 /* Small screens */
 @media screen and (max-width: 600px) {
-    .navbar-toggler {
-        display: block;
-    }
-
-    .navbar-collapse {
-        display: none;
-    }
 }
