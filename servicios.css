@@ -19,7 +19,6 @@
 
 body{
   padding: 0;
-  margin: 0;
   font-family: "Teko", sans-serif;
   background-color: black;
 }
@@ -144,6 +143,7 @@ main {
       background-color: rgb(0, 0, 0);
       opacity: 0.75;
       height: 550px;
+      width: 520;
     
     }
 
@@ -154,17 +154,6 @@ main {
     font-size: 2.4rem;
     text-align: center;
  }
-
-
-
-
-#classonline {
-  margin-top: auto;
-}
-
-#classpresencial {
-  margin-top: auto;
-}
 
 
 #boton:hover {
@@ -217,3 +206,4 @@ main {
   align-items: center;
 
 }
+
