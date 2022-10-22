@@ -58,6 +58,13 @@ html{
 }
 
 
+#menu{
+  display: flex;
+  justify-content:flex-end;
+  font-size: 1.5rem;
+  font-family: 'Teko', sans-serif;
+  }
+  
 
 #MenuNavegacion{
 display: flex;
