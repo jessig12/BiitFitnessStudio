@@ -28,8 +28,7 @@ body{
 html{
   font-size: 20px;
   @media screen and (max-width 600px){
-    font-size: 12px;
-    
+
   }
 }
 
@@ -64,6 +63,9 @@ justify-content:flex-end;
   box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
 }
 
+img{
+  margin-top: auto;
+}
 
 main {
   background-color: black;
@@ -80,8 +82,8 @@ main {
     text-align: center;
     background-color: #9e0e01;
     width: 100%;
-    padding: 20px;
-    min-height: 50px;
+    padding: 10px;
+    min-height: 45px;
     margin-top:auto;
   }
 
