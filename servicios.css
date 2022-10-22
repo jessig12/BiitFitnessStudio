@@ -111,7 +111,7 @@ main {
 
 
     .imagen1{
-      background-image: url(./assets/imagen1.jpg);
+      background-image: url(https://i.ibb.co/NCmHzBs/imagen1.jpg);
       font-family: "Teko", sans-serif;
       background-repeat: no-repear;
       background-size: cover;
@@ -125,7 +125,7 @@ main {
 
 
     .imagen2{
-      background-image: url(./assets/imagen3.png);
+      background-image: url(https://i.ibb.co/Q913sf1/ONLINE.png);
       font-family: "Teko", sans-serif;
       background-repeat: no-repear;
       background-size: cover;
@@ -163,6 +163,8 @@ main {
   text-align: center;
   background: rgb(0, 0, 0); 
   box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+  justify-content:center;
+  align-items: center;
 }
 
 #texto2 {
