@@ -172,3 +172,8 @@ main {
         background: red; 
         box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
       }
+
+
+  form{
+    width: 90em;
+  }

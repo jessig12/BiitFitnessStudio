@@ -93,33 +93,35 @@
         
         <!--formulario-->
         <div class="container" id="formularioPie">
-          <div class="row justify-content-center">
-            <h4>REGISTRO BIIT FAMILY</h4>
-          </div>
-        <form method="post" id="biit"class="registro">
-          <div class="col-md-6">
-            <label for="inputEmail" class="form-label">Email</label>
+        <form method="post" id="biit"class="registro" onsubmit="event.preventDefault(); validateForm()">
+          <h4>REGISTRO BIIT FAMILY</h4>
+          <div class="col">
+            <label for="email" class="form-label">Email</label>
             <input type="email" id="email" placeholder="etc@email.com" required>
+            <small class="error"></small>
           </div>
-          
       
-          <div class="col-md-6">
-            <label for="inputNombre" class="form-label">Nombre</label>
+          <div class="col">
+            <label for="name" class="form-label">Nombre</label>
             <input type="text" id="name" placeholder="Juan Escutia" required>
+            <small class="error"></small>
           </div>
-          <div class="col-md-6">
-            <label for="inputTelefono" class="form-label">Telefono</label>
-            <input type="tel" class="form-control" id="phone"  required>
+          <div class="col">
+            <label for="phone" class="form-label">Telefono</label>
+            <input type="tel"  id="phone"  required>
+            <small class="error"></small>
           </div>
-          <div class="col-md-6">
-            <label for="inputTelefono" class="form-label">Asunto</label>
-            <input type="text" class="form-control" id="subject"  required>
+          <div class="col">
+            <label for="asunto" class="form-label">Asunto</label>
+            <input type="text"id="subject"  required>
+            <small class="error"></small>
           </div>
-          <div class="col-md-8">
-            <label for="inputMensjae" class="form-label">Mensaje</label>
+          <div class="col">
+            <label for="message" class="form-label">Mensaje</label>
             <textarea id="message"  placeholder="Dichoso mensaje"  required></textarea>
+            <small class="error"></small>
           </div>
-          <div class="row-col-6">
+          <div class="row">
             <div class="form-check">
               <input class="form-check-input" type="checkbox" id="gridCheck">
               <label class="form-check-label" for="gridCheck" prequired>
@@ -127,8 +129,9 @@
               </label>
             </div>
           </div>
-          <div class="col-12">
+          <div class="col">
             <button onclick="validar()" id="boton" type="submit" class="btn btn-danger">NUEVO MIEMBRO</button>
+            <p id="Envio exitoso"></p>
           </div>
         </form>
         <script type="text/javascript"
