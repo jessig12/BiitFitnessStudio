@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap') 
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap'); 
 * {
   margin: 0;
   padding: 0;
@@ -28,16 +28,11 @@ main {
 html {
   font-size: 20px;
 
-  @media screen and (max-width 858px) {
-
-    font-size: 12px;
+  @media screen and (max-width 900px) {
+    font-size: 20px;
 
   }
 }
-
-
-
-
 
 
 #logo {
@@ -105,4 +100,15 @@ html {
 
 footer {
   margin-top: auto;
+}
+
+#boton:hover {
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-size: 1.1rem;
+  background: rgb(0, 0, 0);
+  box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
