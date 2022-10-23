@@ -3,8 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap')
 
 body{
-
-  font-family: "Teko", sans-serif;
+  font-family: 'Teko', sans-serif;
 }
 
 html, body {
@@ -161,8 +160,6 @@ html, body {
   width: 50%;
 
 }
-
-
 
 #btn-2:hover {
   background:#e42313; 
