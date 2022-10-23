@@ -96,20 +96,24 @@
           <div class="row justify-content-center">
             <h4>REGISTRO BIIT FAMILY</h4>
           </div>
-        <form method="POST" id="biit"class="registro">
+        <form method="post" id="biit"class="registro">
           <div class="col-md-6">
             <label for="inputEmail" class="form-label">Email</label>
-            <input type="email" class="email" placeholder="etc@email.com" required>
+            <input type="email" id="email" placeholder="etc@email.com" required>
           </div>
           
       
           <div class="col-md-6">
             <label for="inputNombre" class="form-label">Nombre</label>
-            <input type="text" class="name"placeholder="Juan Escutia" required>
+            <input type="text" id="name" placeholder="Juan Escutia" required>
           </div>
           <div class="col-md-6">
             <label for="inputTelefono" class="form-label">Telefono</label>
             <input type="tel" class="form-control" id="phone"  required>
+          </div>
+          <div class="col-md-6">
+            <label for="inputTelefono" class="form-label">Asunto</label>
+            <input type="text" class="form-control" id="subject"  required>
           </div>
           <div class="col-md-8">
             <label for="inputMensjae" class="form-label">Mensaje</label>
@@ -124,10 +128,15 @@
             </div>
           </div>
           <div class="col-12">
-            <button onclick="validar()" type="submit" class="btn btn-danger">NUEVO MIEMBRO</button>
+            <button onclick="validar()" id="boton" type="submit" class="btn btn-danger">NUEVO MIEMBRO</button>
           </div>
         </form>
-  
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+      
+      <script type="text/javascript">
+        emailjs.init('W5hE9dOxgBb6OZ3Il')
+      </script>
           </div>
         
       </div>
@@ -265,7 +274,7 @@
 
 
         <!-- JS de bootstrap -->
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        
         <script src="contacto.js"></script>
       <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
       
