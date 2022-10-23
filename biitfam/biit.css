@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap')
+
+* {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: inherit;
+    font-family: "Teko", sans-serif;
+   
+  }
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Teko", sans-serif;
+    background-color: black;
+  }
+  html{
+    font-size: 20px;
+    @media screen and (max-width 600px){
+      font-size: 12px;
+      
+    }
+  }
+  
+  #logo{
+    margin-left: 35px;
+  }
+  
+  .after:after {
+    content: " ";
+    display: block;
+    height: 9px;
+    background: #ff1313;
+    width: 100%;
+    left: 100%;
+    top: calc(50% - 2px);
+  }
+  
+   #img {
+    margin-inline-start: 80px;
+   
+   }
+  
+  #menu{
+  display: flex;
+  justify-content:flex-end;
+  }
+  
+  .navbar-dark{
+    background: #231e1e;
+  }
+  
+  
+  .nav-link:hover{
+    background: red; 
+    box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+  }
+.redLine{
+    margin: 0%;
+    content: " ";
+    display: block;
+    height: 15px;
+    background: #ff1313;
+    width: 100%;
+    left: 100%;
+    top: calc(50% - 2px);
+    opacity:unset;
+}
+.squareRed {
+    width: 100%;
+    height: 116px;
+    display: flex;
+    background-color:#cd3232;
+    align-items:center;
+   
+}
+.comunityBody{
+    width: 100%;
+height: 100vh;
+background-image: url("https://i.ibb.co/pZYvpYk/comunity.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+
+}
+.backComuny{
+width: 100%;
+height: 355px;
+background-image: url("https://i.ibb.co/x8n4s3X/comu.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+
+}
+h1{
+    color:#ffff;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Nunito';
+    width: 1119px;
+    height: 310px;
+    align-items:ft;
+    top: 155px;
+    text-align: left;
+    -webkit-text-stroke: 2px black;
+
+    
+}
+h2,h3{
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 49px;
+text-align: center;
+
+color: #FFFFFF;
+}
+h4{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+line-height: 49px;
+text-align: center;
+
+color: #cd3232;
+}
+p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px; 
+    line-height: 44px;
+    text-align: center; 
+    color: #FFFFFF;
+}
+
+#botonSubir{
+   margin: 1em ;
+}
+
+
+
+
+main {
+    background-color: black;
+  }
+  
+  .titulo{
+    color: white;
+    font-size: 3rem;
+    font-family: "Teko", sans-serif;
+  }
+    
+
+
+
+.container-tit{
+    text-align: center;
+    background-color: #e42313;
+    width: 100%;
+    padding: 20px;
+    min-height: 50px;
+    margin-top:auto;
+  }
+
+
+#redes {
+    background-color: black;
+  }
+  
+  
+  
+      .btn:hover{
+        background: red; 
+        box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+      }
