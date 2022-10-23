@@ -97,13 +97,13 @@
           <h4>REGISTRO BIIT FAMILY</h4>
           <div class="col">
             <label for="email" class="form-label">Email</label>
-            <input type="email" id="email" placeholder="etc@email.com" required>
+            <input type="email" id="email" name="email" placeholder="etc@email.com" required>
             <small class="error"></small>
           </div>
       
           <div class="col">
             <label for="name" class="form-label">Nombre</label>
-            <input type="text" id="name" placeholder="Juan Escutia" required>
+            <input type="text" id="name" name="name" placeholder="Juan Escutia" required>
             <small class="error"></small>
           </div>
           <div class="col">
@@ -113,12 +113,12 @@
           </div>
           <div class="col">
             <label for="asunto" class="form-label">Asunto</label>
-            <input type="text"id="subject"  required>
+            <input type="text"id="subject" name="asunto" required>
             <small class="error"></small>
           </div>
           <div class="col">
             <label for="message" class="form-label">Mensaje</label>
-            <textarea id="message"  placeholder="Dichoso mensaje"  required></textarea>
+            <textarea id="message" name="message" placeholder="Dichoso mensaje"  required></textarea>
             <small class="error"></small>
           </div>
           <div class="row">
@@ -139,6 +139,7 @@
       
       <script type="text/javascript">
         emailjs.init('W5hE9dOxgBb6OZ3Il')
+      </script>
       </script>
           </div>
         
