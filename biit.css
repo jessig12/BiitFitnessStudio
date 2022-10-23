@@ -81,7 +81,7 @@ body{
 .comunityBody{
     width: 100%;
 height: 100vh;
-background-image: url(../assets/comunity.jpeg);
+background-image: url("https://i.ibb.co/pZYvpYk/comunity.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
@@ -90,7 +90,7 @@ background-position: center center;
 .backComuny{
 width: 100%;
 height: 355px;
-background-image: url(../assets/comu.jpeg);
+background-image: url("https://i.ibb.co/x8n4s3X/comu.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;

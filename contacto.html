@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="contacto.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <title>CONTACTO</title>
 </head>
 <body>
@@ -48,7 +48,18 @@
       <hr class="redLine">
       <!--contenido pagina-->
    
-      <div class="container-sm text-center">
+      <div class="container-sm text-center" id="principalcont">
+        <div class="row">
+          <div class="col">
+            <i class="fa-solid fa-phone fa-10x"></i>
+          </div>
+          <div class="col">
+            <i class="fa-solid fa-pen-nib fa-10x"></i>
+          </div>
+          <div class="col">
+            <i class="fa-solid fa-user fa-10x"></i>
+          </div>
+        </div>
         <div class="row">
           <div class="col-6 col-md-4"><p>Llamanos desde cualquier parte de la republica</p></div>
           <div class="col-6 col-md-4"><p>Usa el chat en nuestra plataforma o redesd sociales</p></div>
@@ -58,25 +69,69 @@
       </section>
       <!--Segundo encabezado-->
       <section class="squareRed">
-        <div class="container-md text-center">  
+        <div class="container-md text-center" >  
             <h2>BUSCAS UN CONTACTO MAS PERSONALIZADO O DIRECTO</h2>
            </div>
-        </section>
+          </section>
         <!--CONTENIDO SEGUNDA SECCION-->
-        <div class="container-sm">
-            <div class="row">
+        <div class="container text-center">
+            <div class="row row-cols-2">
                 <div class="col">
                       <p>Pregunta sobre nuestros programas personalizados o asesoramientos nutricionales</p>
                         <br>
                         <p>En Biit Fitness estamos dichosos de apyarte. Queremos escuchar cualquier recomendacion o critica para mejorar nuestra experiencia y servicios.</p>
                 </div>
-                <div class="col">
+                <div class="col" id="imgfinal">
                   <a  href="#">
-                    <img id="nutri" src="../assets/nutricion.jpg" class="rounded float-start" alt="logo" width="678px" height></a>
+                    <img id="nutri" src="https://i.ibb.co/X4672pd/Whats-App-Image-2022-10-13-at-1-57-08-PM-9.jpg" class=" float-start" alt="logo" width="678px" height></a>
                 </div>
-
-            </div>
+              </div>
+              
+              </div>
         </div>
+        
+        
+        <!--formulario-->
+        <div class="container" id="formularioPie">
+          <div class="row justify-content-center">
+            <h4>REGISTRO BIIT FAMILY</h4>
+          </div>
+        <form method="POST" id="biit"class="registro">
+          <div class="col-md-6">
+            <label for="inputEmail" class="form-label">Email</label>
+            <input type="email" class="email" placeholder="etc@email.com" required>
+          </div>
+          
+      
+          <div class="col-md-6">
+            <label for="inputNombre" class="form-label">Nombre</label>
+            <input type="text" class="name"placeholder="Juan Escutia" required>
+          </div>
+          <div class="col-md-6">
+            <label for="inputTelefono" class="form-label">Telefono</label>
+            <input type="tel" class="form-control" id="phone"  required>
+          </div>
+          <div class="col-md-8">
+            <label for="inputMensjae" class="form-label">Mensaje</label>
+            <textarea id="message"  placeholder="Dichoso mensaje"  required></textarea>
+          </div>
+          <div class="row-col-6">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck" prequired>
+                Acepto uso de mis datos
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button onclick="validar()" type="submit" class="btn btn-danger">NUEVO MIEMBRO</button>
+          </div>
+        </form>
+  
+          </div>
+        
+      </div>
+      </div>
         <hr class="redLine">
         <!-- Footer de la página--> 
         <footer id="redes" class="bg-dark text-center text-white">
@@ -210,7 +265,8 @@
 
 
         <!-- JS de bootstrap -->
-        <script src="script.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="contacto.js"></script>
       <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
       
 </body>
