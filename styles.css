@@ -13,6 +13,7 @@ body{
   padding: 0;
   margin: 0;
   font-family: "Teko", sans-serif;
+  background-color: black;
 }
 
 
@@ -21,11 +22,11 @@ body{
     display: flex;
     justify-content:flex-end;
   }
-  .nav-link:hover{
+.nav-link:hover{
     background: red; 
     box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
   }
-  .after:after {
+.after:after {
     content: " ";
     display: block;
     height: 7px;
@@ -34,23 +35,26 @@ body{
     left: 100%;
     top: calc(50% - 2px);
   }
-  img{
+  .img{
     object-fit: cover;
     max-inline-size: 100%;
     block-size: auto;
   }
-  #img2{
-    object-fit: cover;
+  #sec1{
+    
     width: 100%;
     max-width: auto;
-    height: auto;
+    height: 100%;
+  
+
   }
 
-#sec2{
+.cont2{
   width: 100%;
-  height: 1000px;
+  height: 100%;
   background-color: black;
   position: relative;
+  
 }
 
 .rectangulo{
@@ -75,8 +79,26 @@ body{
 
 }
 
-#sec3{
-  width: 50%;
+
+
+.cont-img{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 50px;
 }
 
+.img-1{
+  width: 600px;
+}
+ #recrojo{
+  padding-top: 10px;
+ }
 
+@media ( max-width: 500px ){
+
+
+
+}
