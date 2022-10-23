@@ -1,0 +1,33 @@
+.banner-img {
+    display: inline-block;
+    width: 100%;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    overflow: scroll;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1em;
+
+    font-family: "Teko", sans-serif;
+}
+
+.product-title,
+.product-price {
+    font-weight: bolder;
+}
+
+/* Small screens */
+@media screen and (max-width: 600px) {
+}

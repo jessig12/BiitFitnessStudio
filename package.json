@@ -1,0 +1,19 @@
+{
+  "name": "biitfitnessstudio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conocenos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessig12/BiitFitnessStudio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessig12/BiitFitnessStudio/issues"
+  },
+  "homepage": "https://github.com/jessig12/BiitFitnessStudio#readme"
+}
