@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap') 
+
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+  color: inherit;
+  font-family: "Teko", sans-serif;
+
+}
+
+body {
+  font-family: "Teko", sans-serif;
+
+  background-image: url(https://i.ibb.co/NCmHzBs/imagen1.jpg);
+  background-repeat: no-repear;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  padding: 0;
+  margin: 0;
+  font-family: "Teko", sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+}
+
+html{
+  font-size: 20px;
+  @media screen and (max-width 600px){
+    font-size: 12px;
+    
+  }
+}
+
+
+#logo {
+  margin-left: 35px;
+}
+
+.after:after {
+  content: " ";
+  display: flex;
+  height: 9px;
+  background: #ff1313;
+  width: 100%;
+  left: 100%;
+  top: calc(50% - 2px);
+}
+
+#after {
+  content: " ";
+  display: block;
+  height: 9px;
+  background: #ff1313;
+  width: 100%;
+  left: 100%;
+  top: calc(50% - 2px);
+}
+
+#menu{
+  display: flex;
+  justify-content:flex-end;
+  font-size: 1.5rem;
+  font-family: 'Teko', sans-serif;
+  }
+  
+.navbar-dark {
+  background: #231e1e;
+}
+
+
+.nav-link:hover {
+  background: red;
+  box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+}
+
+#img {
+  margin-inline-start: 80px;
+
+}
+
+#MenuNavegacion{
+  display: flex;
+  justify-content:flex-end;
+  }
+  
+
+#cuadrado {
+  text-align: center;
+  background-color: black;
+  opacity: 0.8;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+
+
+#login2 {
+  text-align: center;
+  background-color: black;
+  opacity: 0.75;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.nombre-empresa {
+  color: white;
+}
+
+
+#inputg {
+  width: 40ch;
+  height: 45px;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bolder;
+  background-color: #b90b0b;
+  border-color: #000000;
+  color: #000000;
+}
+
+
+#button {
+  width: 15ch;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bolder;
+  background-color: #b90b0b;
+  border-color: #000000;
+
+}
+
+
+#label {
+  color: white;
+}
+
+
+
+
+.btn:hover {
+  background: red;
+  box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+}
+
+
+footer {
+  margin-top: auto;
+}
+
+main {
+
+  margin-top: auto;
+}
