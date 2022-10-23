@@ -100,6 +100,10 @@ h1{
     background-color: #231e1e;
   }
 
+  .carousel-inner{
+    object-fit: cover;
+  }
+
   #ca1 h4{
     color:white;
     font-weight: bold;
