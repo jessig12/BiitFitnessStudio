@@ -74,7 +74,7 @@ body{
     width: 100%;
     height: 116px;
     display: flex;
-    background-color:#cd3232;
+    background-color:#ff1313;
     align-items:center;
    
 }
@@ -85,6 +85,7 @@ background-image: url("https://i.ibb.co/pZYvpYk/comunity.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
+object-fit: cover;
 
 }
 .backComuny{
@@ -94,25 +95,19 @@ background-image: url("https://i.ibb.co/x8n4s3X/comu.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
-
+object-fit: cover;
 }
 h1{
-    color:#ffff;
-    font-size: 100px;
-    font-weight: bold;
-    font-family: 'Nunito';
-    width: 1119px;
-    height: 310px;
-    align-items:ft;
-    top: 155px;
-    text-align: left;
+  color: white;
+  font-size: 3.5rem;
+  font-family: "Teko", sans-serif;
+  min-width: 250;
     -webkit-text-stroke: 2px black;
 
     
 }
 h2,h3{
-font-family: 'Nunito';
-font-style: normal;
+font-family: 'Teko', sans-serif;
 font-weight: 700;
 font-size: 36px;
 line-height: 49px;
@@ -121,28 +116,26 @@ text-align: center;
 color: #FFFFFF;
 }
 h4{
-    font-family: 'Nunito';
-font-style: normal;
-font-weight: 700;
-line-height: 49px;
-text-align: center;
-
-color: #cd3232;
+  
+    font-family: 'Teko', sans-serif;
+    color: #e42313;
+    font-size: 3rem;
+    text-decoration: underline;
+  
 }
 p{
-    font-family: 'Inter';
-    font-style: normal;
+  font-family: 'Teko', sans-serif;
     font-weight: 400;
     font-size: 36px; 
     line-height: 44px;
     text-align: center; 
     color: #FFFFFF;
+    -webkit-text-stroke: 1px black;
 }
 
 #botonSubir{
    margin: 1em ;
 }
-
 
 
 
@@ -173,6 +166,16 @@ main {
     background-color: black;
   }
   
+  #progress-img{
+    width: 100%;
+height: 355px;
+background-image: url("https://i.ibb.co/VLKNBnF/progress.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    object-fit: cover;
+
+  }
   
   
       .btn:hover{
