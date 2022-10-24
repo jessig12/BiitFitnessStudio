@@ -74,14 +74,14 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    object-fit: cover;
+    
 }
 .squareRed {
   
   width: 100%;
     height: 156px;
     display: flex;
-    background-color:#cd3232;
+    background-color:#ff1313;
     align-items:center;
    
 }
@@ -89,10 +89,14 @@ h1{
   font-family: "Teko", sans-serif;
     font-weight: 400;
     font-size: 3rem;
-    line-height: 87px;
-    text-align: center center;
     -webkit-text-stroke: 2px black;
     color: #FFFFFF;  
+}
+h3{
+  font-family: 'Teko', sans-serif;
+  color: #e42313;
+  font-size: 3rem;
+  text-decoration: underline;
 }
 
 #principalcont{
@@ -103,20 +107,25 @@ padding:10px;
 h2{
   font-family: "Teko", sans-serif;
 font-weight: 700;
-font-size: 40px;
-line-height: 49px;
+font-size: 3rem;
 text-align: center;
 
 color: #FFFFFF;
 }
+
+#iconf{
+
+  font-size: 10vw;
+}
+
 p{
   font-family: "Teko", sans-serif;
     font-weight: 400;
-    font-size: 40px;
-    line-height: 44px;
+    font-size: 2rem;
     text-align: center;
     padding: 20px;
     color: #FFFFFF;  
+    -webkit-text-stroke: 2px black;
 }
 main {
     background-color: black;
@@ -129,7 +138,8 @@ main {
   }
     
 #principalcont{
-  
+  width: 100%;
+    height: 416px;
   background-image: url("https://i.ibb.co/gR09xqT/Whats-App-Image-2022-10-13-at-1-57-07-PM.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -161,13 +171,15 @@ main {
 #redes {
     background-color: black;
   }
-  
+ 
 #imgfinal{
+  width: 100%;
+    height: 400px;
   background-image: url("https://i.ibb.co/X4672pd/Whats-App-Image-2022-10-13-at-1-57-08-PM-9.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
-object-fit: cover;
+
 }
   
       .btn:hover{
