@@ -43,7 +43,7 @@ html {
   content: " ";
   display: block;
   height: 9px;
-  background: #ff1313;
+  background: #e42313;
   width: 100%;
   left: 100%;
   top: calc(50% - 2px);
@@ -72,7 +72,7 @@ html {
 }
 
 .nav-link:hover {
-  background: red;
+  background: #e42313;
   box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
 }
 

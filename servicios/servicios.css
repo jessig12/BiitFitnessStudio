@@ -36,7 +36,7 @@ html {
   content: " ";
   display: block;
   height: 9px;
-  background: #b10303;
+  background:#e42313;
   width: 100%;
   left: 100%;
   top: calc(50% - 2px);
@@ -55,7 +55,7 @@ html {
 
 
 .nav-link:hover {
-  background: rgb(214, 0, 0);
+  background:#e42313;
   box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
 }
 
@@ -76,7 +76,7 @@ main {
 
 .container-tit {
   text-align: center;
-  background-color: #9e0e01;
+  background-color:#e42313;
   width: 100%;
   padding: 10px;
   min-height: 45px;
@@ -171,7 +171,7 @@ main {
 }
 
 #texto4 {
-  color: #d20707;
+  color:#e42313;
   padding: 2px;
   font-size: 6rem;
   text-align: center;

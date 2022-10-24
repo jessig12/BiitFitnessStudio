@@ -47,7 +47,7 @@ html{
   content: " ";
   display: flex;
   height: 9px;
-  background: #ff1313;
+  background:#e42313;
   width: 100%;
   left: 100%;
   top: calc(50% - 2px);
@@ -57,7 +57,7 @@ html{
   content: " ";
   display: block;
   height: 9px;
-  background: #ff1313;
+  background:#e42313;
   width: 100%;
   left: 100%;
   top: calc(50% - 2px);
@@ -76,7 +76,7 @@ html{
 
 
 .nav-link:hover {
-  background: red;
+  background::#e42313;
   box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
 }
 
@@ -125,7 +125,7 @@ html{
   text-align: center;
   border-radius: 8px;
   font-weight: bolder;
-  background-color: #b90b0b;
+  background-color: #e42313;
   border-color: #000000;
   color: #000000;
 }
@@ -138,7 +138,7 @@ html{
   text-align: center;
   border-radius: 8px;
   font-weight: bolder;
-  background-color: #b90b0b;
+  background-color: #e42313;
   border-color: #000000;
 
 }
