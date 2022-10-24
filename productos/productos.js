@@ -29,7 +29,7 @@ function addProduct(product) {
 
     // Create product button action
     let product_button = document.createElement("button");
-    product_button.className = "product-button";
+    product_button.className = ("product-button", "btn btn-dark");
     product_button.innerText = "Agregar al carrito";
 
     // Add elements to card

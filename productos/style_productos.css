@@ -29,9 +29,7 @@
     max-height: 150px;
     border-radius:16px;
     }
-    .flexible {
-        flex-grow: 1;
-    }
+    
 
 .product-title,
 .product-price {
