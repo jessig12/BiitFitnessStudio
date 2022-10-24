@@ -17,11 +17,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: fit-content;
+    max-height: fit-content;
 
-    padding: 1em;
+    padding: 2em;
 
-    font-family: "Teko", sans-serif;
+    font-family: "Teko";
 }
+.product-card img{
+    max-width: 150px;
+    max-height: 150px;
+    border-radius:16px;
+    }
+    .flexible {
+        flex-grow: 1;
+    }
 
 .product-title,
 .product-price {
