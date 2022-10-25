@@ -85,7 +85,7 @@ h2{
 
 }
 #iconf{
-  font-size: 15vw;
+  font-size: 5vw;
 }
 .text1 ,h4{
   color: white;
@@ -216,12 +216,21 @@ h2{
   background-size: cover;
   background-position: center center;
   object-fit: cover;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 
 }
 .pwhite{
   font-family: 'Teko', sans-serif;
   color: #ffffff;
   font-size: 35px;
+  -webkit-text-stroke: 1px black;
+}
+.parr{
+  font-family: 'Teko', sans-serif;
+  color: black;
+  font-size: 3vw;
   -webkit-text-stroke: 1px black;
 }
 #imgfinal{
@@ -235,6 +244,12 @@ object-fit: cover;
   color:#fff;
 }
 #contenedor1{
-  padding-top: 20px;
-  margin:auto;
+  
+  height: 400px;
+  padding:100px;
+  
+  align-items: center;
+
+  justify-content: center center;
+    background-color: rgba(255, 255, 255, 0.323);
 }
