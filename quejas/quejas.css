@@ -11,7 +11,20 @@
     font-family: "Teko", sans-serif;
    
   }
+  html {
+    font-size: 20px;
+    @media screen and (max-width 900px) {
+      font-size: 20px;
   
+    }
+  }
+  #menu{
+    display: flex;
+    justify-content:flex-end;
+    font-size: 1.5rem;
+    font-family: 'Teko', sans-serif;
+    }
+
   body{
     padding: 0;
     margin: 0;
@@ -24,6 +37,7 @@
   #navbar {
       display: flex;
       justify-content:flex-end;
+      
     }
     .nav-link:hover{
       background: red; 
