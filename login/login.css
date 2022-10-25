@@ -118,18 +118,6 @@ html{
 }
 
 
-#inputg {
-  width: 40ch;
-  height: 45px;
-  font-size: 24px;
-  text-align: center;
-  border-radius: 8px;
-  font-weight: bolder;
-  background-color: #e42313;
-  border-color: #000000;
-  color: #000000;
-}
-
 
 #button {
   width: 15ch;
