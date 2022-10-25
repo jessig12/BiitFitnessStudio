@@ -48,42 +48,17 @@ html {
   top: calc(50% - 2px);
 }
 
-
-#menu {
-  display: flex;
-  justify-content: flex-end;
-  font-size: 1.5rem;
-  font-family: 'Teko', sans-serif;
-}
-
-
 #MenuNavegacion {
   display: flex;
   justify-content: flex-end;
 }
 
-.navbar-dark {
-  background: #231e1e;
-}
-
-.navbar-after {
-  background-color: white;
-}
 
 .nav-link:hover {
   background: #e42313;
   box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
 }
 
-
-.form-control {
-  height: 50px;
-  background-color: #cbcbcbd5;
-  font-weight: bolder;
-  font-size: 15;
-  border-radius: 5px;
-
-}
 
 
 #redes {
