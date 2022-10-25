@@ -4,12 +4,18 @@
 
 body{
   font-family: 'Teko', sans-serif;
+ 
 }
 
 html, body {
-  max-width: 100% !important;
-  overflow-x: hidden !important;
+  
   background-color:black;
+  font-size: 20px;
+  
+  @media screen {max-width
+    
+  }
+  
 }
 
   #menu{
@@ -17,6 +23,7 @@ html, body {
     justify-content:flex-end;
     font-size: 1.5rem;
     font-family: 'Teko', sans-serif;
+    
     }
       
     
@@ -62,7 +69,7 @@ html, body {
 
 h1{
   color: white;
-  font-size: 3.5em;
+  font-size: 7vw;
   font-family: "Teko", sans-serif;
   min-width: 250;
   margin-top:auto;
@@ -128,8 +135,9 @@ h2{
 #col-txt1, h3{
   margin-top: 10px;
   font-family: 'Teko', sans-serif;
-  color:#e42313;
+  color:white;
   font-size: 2.5rem;
+  text-decoration: underline;
 }
 
 
@@ -251,5 +259,5 @@ object-fit: cover;
   align-items: center;
 
   justify-content: center center;
-    background-color: rgba(255, 255, 255, 0.323);
+    background-color: rgba(239, 11, 11, 0.323);
 }
