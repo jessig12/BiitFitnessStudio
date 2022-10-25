@@ -51,8 +51,6 @@ html {
 
 
 #navbarNavDropdown {
-  justify-content: flex-end;
-  display: flex;
   justify-content:flex-end;
   font-size: 1.5rem;
   font-family: 'Teko', sans-serif;
@@ -77,6 +75,7 @@ main {
   color: white;
   font-size: 3rem;
   font-family: "Teko", sans-serif;
+  text-align: center;
 }
 
 
