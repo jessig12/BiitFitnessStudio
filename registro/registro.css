@@ -10,6 +10,7 @@
 }
 
 body {
+  cursor: url(../assets/manc-removebg-preview.png), default;
   padding: 0;
   margin: 0;
   font-family: "Teko", sans-serif;
@@ -27,7 +28,6 @@ main {
 
 html {
   font-size: 20px;
-
   @media screen and (max-width 900px) {
     font-size: 20px;
 
@@ -43,48 +43,24 @@ html {
   content: " ";
   display: block;
   height: 9px;
-  background: #ff1313;
+  background: #e42313;
   width: 100%;
   left: 100%;
   top: calc(50% - 2px);
 }
 
-
-#menu {
-  display: flex;
-  justify-content: flex-end;
+#navbarNavDropdown{
+justify-content:flex-end;
   font-size: 1.5rem;
   font-family: 'Teko', sans-serif;
 }
 
 
-#MenuNavegacion {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.navbar-dark {
-  background: #231e1e;
-}
-
-.navbar-after {
-  background-color: white;
-}
-
 .nav-link:hover {
-  background: red;
+  background: #e42313;
   box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
 }
 
-
-.form-control {
-  height: 50px;
-  background-color: #cbcbcbd5;
-  font-weight: bolder;
-  font-size: 15;
-  border-radius: 5px;
-
-}
 
 
 #redes {
@@ -94,7 +70,7 @@ html {
 
 
 .btn:hover {
-  background: red;
+  background: rgb(0, 0, 0);
   box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
 }
 
