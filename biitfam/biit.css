@@ -10,6 +10,10 @@ html, body {
   max-width: 100% !important;
   overflow-x: hidden !important;
   background-color: black;
+  
+}
+body{
+  cursor: url(../assets/manc-removebg-preview.png), default;
 }
 
   #menu{
@@ -130,10 +134,9 @@ h3{
 
 #col-txt1 h1,h4{
   font-family: 'Teko', sans-serif;
-  color: #e42313;
-  font-size: 3rem;
+  color: white;
+  font-size: 2rem;
   text-decoration: underline;
-  jus: center;
 }
 
 #col-txt1 p{

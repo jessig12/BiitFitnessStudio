@@ -10,6 +10,7 @@
 }
 
 body {
+  cursor: url(../assets/manc-removebg-preview.png), default;
   padding: 0;
   margin: 0;
   font-family: "Teko", sans-serif;

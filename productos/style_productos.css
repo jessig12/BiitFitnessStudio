@@ -2,7 +2,10 @@
     display: inline-block;
     width: 100%;
 }
+body{
 
+    cursor: url(../assets/manc-removebg-preview.png), default;
+}
 .product-container {
     display: flex;
     flex-direction: row;
