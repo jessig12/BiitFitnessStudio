@@ -9,14 +9,19 @@ body{
 html, body {
   max-width: 100% !important;
   overflow-x: hidden !important;
+  font-size: 20px;
+  @media screen and (max-width 900px) {
+    font-size: 20px;
+}
 }
 
-  #menu{
-    display: flex;
-    justify-content:flex-end;
-    font-size: 1.5rem;
-    font-family: 'Teko', sans-serif;
-    }
+
+#navbarNavDropdown {
+  justify-content: flex-end;
+  display: flex;
+  font-size: 1.5rem;
+  font-family: "Teko", sans-serif;
+}
       
     
     #logo{
