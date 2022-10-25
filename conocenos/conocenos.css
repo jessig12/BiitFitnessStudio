@@ -9,15 +9,23 @@ body{
 html, body {
   max-width: 100% !important;
   overflow-x: hidden !important;
+<<<<<<< HEAD
+  font-size: 20px;
+  @media screen and (max-width 900px) {
+    font-size: 20px;
+}
+=======
   cursor: url(../assets/manc-removebg-preview.png), default;
+>>>>>>> a4ad28b39aff5b62d97dde65e80ad057eb90e62b
 }
 
-  #menu{
-    display: flex;
-    justify-content:flex-end;
-    font-size: 1.5rem;
-    font-family: 'Teko', sans-serif;
-    }
+
+#navbarNavDropdown {
+  justify-content: flex-end;
+  display: flex;
+  font-size: 1.5rem;
+  font-family: "Teko", sans-serif;
+}
       
     
     #logo{
