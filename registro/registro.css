@@ -10,6 +10,7 @@
 }
 
 body {
+  cursor: url(../assets/manc-removebg-preview.png), default;
   padding: 0;
   margin: 0;
   font-family: "Teko", sans-serif;
@@ -48,9 +49,12 @@ html {
   top: calc(50% - 2px);
 }
 
-#MenuNavegacion {
-  display: flex;
+#navbarNavDropdown{
   justify-content: flex-end;
+  display: flex;
+  justify-content:flex-end;
+  font-size: 1.5rem;
+  font-family: 'Teko', sans-serif;
 }
 
 
