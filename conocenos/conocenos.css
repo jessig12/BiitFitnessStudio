@@ -3,38 +3,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
 
 
-
 html, body {
-  max-width: 100% !important;
-  overflow-x: hidden !important;
-  font-size: 20px;
-  @media screen and (max-width 900px) {
-    font-size: 20px;
-}
-}
-
-
-#navbarNavDropdown{
-  justify-content: flex-end;
-  justify-content:flex-end;
-  font-size: 1.5rem;
+  cursor: url(../assets/manc-removebg-preview.png), default;
+  max-width: 100%;
+  overflow-x: hidden;
   font-family: 'Teko', sans-serif;
 }
-      
-    
-    #logo{
-      margin-left: 35px;
+  
+  #logo{
+    margin-left: 35px;
+  }
+  
+   html {
+    font-size: 20px;
+    @media screen and (max-width 900px) {
+      font-size: 20px;
+  
     }
-
-.navbar-dark{
-  background: #231e1e;
-}
-
-
-.nav-link:hover{
-  background: red; 
-  box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
-}
+  }
+  
+  #navbarNavDropdown{
+    justify-content: flex-end;
+    justify-content:flex-end;
+    font-size: 1.5rem;
+    font-family: 'Teko', sans-serif;
+  }
+  
+  .navbar-dark{
+    background: #231e1e;
+  }
+  
+  
+  .nav-link:hover{
+    background: red; 
+    box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+  }
 
 
 .after:after {
