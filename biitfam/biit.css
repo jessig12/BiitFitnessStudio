@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
 
 body{
   font-family: 'Teko', sans-serif;
@@ -216,7 +216,7 @@ h3{
 
 
   .btn:hover {
-    background: red; 
+    background: rgb(0, 0, 0); 
     box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
   }
 

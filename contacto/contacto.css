@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
 
 body{
   font-family: 'Teko', sans-serif;
@@ -208,7 +208,7 @@ h2{
 
 
   .btn:hover {
-    background: red; 
+    background: rgb(0, 0, 0); 
     box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
   }
 
@@ -265,6 +265,7 @@ object-fit: cover;
   align-items: center;
 
   justify-content: center center;
+<<<<<<< HEAD
     background-color: rgba(239, 11, 11, 0.323);
 }
 form{
@@ -331,4 +332,8 @@ color: red;
 
 #Envio exitoso{
   color:#28a745;
+=======
+  background-color: rgba(239, 11, 11, 0.323);
+  height: 200 px;
+>>>>>>> 040efb698e410c4facac4ba74dc40ffe1eb5b5f5
 }
