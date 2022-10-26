@@ -54,42 +54,6 @@ function emailIsValid(email){
     return pattern.test(email);
 }
 
-/*
-const btnverificar = document.getElementById('boton');
-
-const verificacion = (e) => {
-    e.preventDefault();
-    const usuario = document.getElementById('name').value;
-    const direccionEmail = document.getElementById('email').value;
-
-    if (usuario.length === 0) {
-        alert("Por favor, escribe tu nombre de usuario.");
-        usuario.focus();
-        return false;
-    }
-
-    if (direccionEmail.length === 0){
-        alert("Por favor, escribe tu correo electronico");
-        email.focus();
-        return false;
-    }
-
-    if (!emailValido(email.value)) {
-        alert("Por favor, escribe un correo electronico valido");
-        emailAddress.focus();
-        return false;
-    }
-
-    return true;
-}
-
-const emailValido = email => {
-    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-}
-
-submitBtn.addEventListener('click', validate);
-*/
-
 
 
 
