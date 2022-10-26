@@ -289,46 +289,17 @@ h1{
   #redes {
     background-color: black;
   }
-  
-  
-  
+
       .btn:hover{
         font-family: 'Teko', sans-serif;
         background: red; 
         box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
       }
 
-h3{
-  font-family: 'Teko', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 60px;
-  line-height: 60px;
-  text-align: center; 
-  color:#ffffff;
-  padding :1em;
-}
 
-  .navbar-after {
-    content: " ";
-    display: block;
-    height: 9px;
-    background: #ff1313;
-    width: 100%;
-    left: 100%;
-    top: calc(50% - 2px);
-  }
   
   
-    #redes {
-      background-color: black;
-    }
-  
-  
-    .btn:hover {
-      background: red; 
-      box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
-    }
+ 
   
 
 
