@@ -269,7 +269,7 @@ object-fit: cover;
 }
 form{
   max-width:100%;
-  background:rgb(240, 18, 18);
+  background:rgba(243, 97, 97, 0.624);
   margin:17vh auto 0 auto;
   padding : 40px;
   border-radius: 3px;

@@ -59,7 +59,7 @@ function emailIsValid(email){
 
 
 const btn = document.getElementById('boton');
-
+if(validateForm()==true){
 document.getElementById('biit')
  .addEventListener('submit', function(event) {
    event.preventDefault();
@@ -76,3 +76,4 @@ document.getElementById('biit')
       alert(JSON.stringify(err));
     });
 });
+}
