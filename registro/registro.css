@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
 * {
   margin: 0%;
   padding: 0;
@@ -31,7 +32,6 @@ html {
   font-size: 20px;
   @media screen and (max-width 900px) {
     font-size: 20px;
-
   }
 }
 
@@ -50,8 +50,8 @@ html {
   top: calc(50% - 2px);
 }
 
-#navbarNavDropdown{
-justify-content:flex-end;
+#navbarNavDropdown {
+  justify-content: flex-end;
   font-size: 1.5rem;
   font-family: 'Teko', sans-serif;
 }
@@ -88,3 +88,22 @@ footer {
 }
 
 
+.form-control {
+  background-color: rgb(198, 198, 198);
+}
+
+
+#warnings {
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  color: #e42313;
+  padding-top: 40px;
+  font-size: 2rem;
+}
+
+
+#titulo {
+  font-size: 3.5rem;
+  color: black;
+}
