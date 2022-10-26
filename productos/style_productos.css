@@ -38,6 +38,11 @@ body{
 .product-price {
     font-weight: bolder;
 }
+#navbarNavDropdown{
+    justify-content:flex-end;
+    font-size: 1.5rem;
+    font-family: 'Teko', sans-serif;
+  }
 
 /* Small screens */
 @media screen and (max-width: 600px) {
