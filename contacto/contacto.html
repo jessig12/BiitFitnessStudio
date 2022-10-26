@@ -109,64 +109,57 @@
         
         <!--formulario-->
         <div class="container" id="formularioPie">
-        <form id="biit"class="registro" onsubmit="event.preventDefault(); validateForm()">
-          <h5>REGISTRO BIIT FAMILY</h5>
-          <div class="col">
-            <label for="email" class="form-label">Email</label>
-            <input type="text" class="form-control" id="email" name="email" placeholder="etc@email.com" required>
-            <small class="error"></small>
-          </div>
-      
-          <div class="col">
-            <label for="name" class="form-label">Nombre</label>
-            <input type="text" id="name" class="form-control" name="name" placeholder="Juan Escutia" required>
-            <small class="error"></small>
-          </div>
-          <div class="col">
-            <label for="phone" class="form-label">Telefono</label>
-            <input type="tel"  class="form-control" id="phone"  required>
-            
-          </div>
-          <div class="col">
-            <label for="asunto" class="form-label">Asunto</label>
-            <input type="text"id="subject" class="form-control" name="asunto" required>
-            <small class="error"></small>
-          </div>
-          <div class="col">
-            <label for="message" class="form-label">Mensaje</label>
-            <textarea id="message"  class="form-control" placeholder="Dichoso mensaje"  required></textarea>
-            <small class="error"></small>
-          </div>
-          <br>
-          <div class="row">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck">
-              <label class="form-check-label" for="gridCheck" prequired>
-                Acepto uso de mis datos
-              </label>
+          <form method="post" id="biit"class="registro" onsubmit="event.preventDefault(); validateForm()">
+            <h5>REGISTRO BIIT FAMILY</h5>
+             <div class="col">
+              <label for="name" class="form-label">Nombre</label>
+              <input type="text" id="name" class="form-control" placeholder="Juan Escutia">
+              <small class="error"></small>
             </div>
-          </div>
-<<<<<<< HEAD
-          <div class="center">
-            <button id="boton" type="submit" class="btn btn-danger">NUEVO MIEMBRO</button>
-            <p id="success"></p>
-=======
-          <br>
-          <div class="col">
-            <button onclick="validar()" id="boton" type="submit" class="btn btn-danger">NUEVO MIEMBRO</button>
-            <p id="Envio exitoso"></p>
->>>>>>> 040efb698e410c4facac4ba74dc40ffe1eb5b5f5
-          </div>
-          <br>
-        </form>
-        <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-      
-      <script type="text/javascript">
-        emailjs.init('W5hE9dOxgBb6OZ3Il')
-      </script>
-      
-          </div>
+            <div class="col">
+              <label for="email" class="form-label">Email</label>
+              <input type="text" class="form-control" id="email"  placeholder="etc@email.com">
+              <small class="error"></small>
+            </div>
+        
+           
+            <div class="col">
+              <label for="phone" class="form-label">Telefono</label>
+              <input type="tel"  class="form-control" id="phone" >
+              <small class="error"></small>
+            </div>
+            <div class="col">
+              <label for="asunto" class="form-label">Asunto</label>
+              <input type="text"id="subject" class="form-control" name="asunto">
+              <small class="error"></small>
+            </div>
+            <div class="col">
+              <label for="message" class="form-label">Mensaje</label>
+              <textarea id="message"  class="form-control" placeholder="Dichoso mensaje"></textarea>
+              <small class="error"></small>
+            </div>
+            <div class="row">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck" >
+                  Acepto uso de mis datos
+                </label>
+              </div>
+            </div>
+            <div class="center">
+              <button id="boton" type="submit" class="btn btn-danger">NUEVO MIEMBRO</button>
+              <p id="success"></p>
+            </div>
+          </form>
+          <script type="text/javascript"
+          src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        
+        <script type="text/javascript">
+          emailjs.init('W5hE9dOxgBb6OZ3Il')
+        </script>
+        
+            </div>
+      <script src="./script.js"></script>
         
       
       

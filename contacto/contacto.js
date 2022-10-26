@@ -1,9 +1,10 @@
 const nameInput = document.querySelector("#name");
-const email = document.querySelector("#email");
 const phoneInput = document.querySelector("#phone")
+const email = document.querySelector("#email");
 const message = document.querySelector("#message");
 const success = document.querySelector("#success");
 const errorNodes = document.querySelectorAll(".error");
+
 
 function validateForm(){
 
@@ -11,7 +12,7 @@ function validateForm(){
     let errorFlag= false;
 
     if (nameInput.value.length < 1){
-        errorNodes[0].innerText = "Introduce tu nombre";
+        errorNodes[0].innerText = "Introduce tu nombre por favor";
         nameInput.classList.add("error-border");
         errorFlag = true;
      }
@@ -20,18 +21,19 @@ function validateForm(){
         email.classList.add("error-border");
         errorFlag = true;
      }
-     if(phoneInput.value!==number){
+     if(phoneInput.value==""){
         errorNodes[2].innerText = "Introduce un numero de telefono valido";
         phoneInput.classList.add("error-border");
         errorFlag = true;
      }
+
      if(message.value.length < 1){
-        errorNodes[3].innerText="Escribe un parrafo para conocerte";
+        errorNodes[3].innerText="Escribe un parrafo para conocerte y un asunto";
         message.classList.add("error-border");
         errorFlag=true;
         }
         if(!errorFlag){
-            success.innerText ="Bienvenido a la familia Biit";
+            success.innerText ="Bienvenido a la familia";
         }
 
 }
@@ -48,7 +50,7 @@ function clearMessages(){
 }
 
 function emailIsValid(email){
-    let pattern = /\S+@\S+\.\s+/;
+    let pattern = /\S+@\S+\.\S+/;
     return pattern.test(email);
 }
 
