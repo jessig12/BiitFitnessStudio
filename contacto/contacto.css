@@ -208,7 +208,7 @@ h2{
 
 
   .btn:hover {
-    background: red; 
+    background: rgb(0, 0, 0); 
     box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
   }
 
@@ -264,5 +264,6 @@ object-fit: cover;
   align-items: center;
 
   justify-content: center center;
-    background-color: rgba(239, 11, 11, 0.323);
+  background-color: rgba(239, 11, 11, 0.323);
+  height: 200 px;
 }
