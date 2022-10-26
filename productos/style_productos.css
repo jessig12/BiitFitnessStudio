@@ -10,12 +10,9 @@ html, body{
   
 }
 #container-foto{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: items;
-    max-width: fit-content;
-    max-width: fit-content;
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
 }   
 
 .titulo1{
