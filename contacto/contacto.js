@@ -1,8 +1,9 @@
-const nameInput = document.querySelector("name");
-const email = document.querySelector("email");
-const message = document.querySelector("message");
-const success = document.querySelector("Envio exitoso");
-const errorNodes = document.querySelector("error");
+const nameInput = document.querySelector("#name");
+const email = document.querySelector("#email");
+const phoneInput = document.querySelector("#phone")
+const message = document.querySelector("#message");
+const success = document.querySelector("#success");
+const errorNodes = document.querySelectorAll(".error");
 
 function validateForm(){
 
@@ -10,23 +11,27 @@ function validateForm(){
     let errorFlag= false;
 
     if (nameInput.value.length < 1){
-        errorNodes[0].innerText = "name cannot be blanck";
+        errorNodes[0].innerText = "Introduce tu nombre";
         nameInput.classList.add("error-border");
         errorFlag = true;
      }
      if(!emailIsValid(email.value)){
-        errorNodes[1].innerText = "Invalid email address";
+        errorNodes[1].innerText = "Introduce un correo valido";
         email.classList.add("error-border");
-        errorFlag=true;
+        errorFlag = true;
      }
-
+     if(phoneInput.value!==number){
+        errorNodes[2].innerText = "Introduce un numero de telefono valido";
+        phoneInput.classList.add("error-border");
+        errorFlag = true;
+     }
      if(message.value.length < 1){
-        errorNodes[2].innerText="plase enter message";
+        errorNodes[3].innerText="Escribe un parrafo para conocerte";
         message.classList.add("error-border");
         errorFlag=true;
         }
         if(!errorFlag){
-            success.innerText ="Envio exitoso¡";
+            success.innerText ="Bienvenido a la familia Biit";
         }
 
 }
@@ -34,7 +39,7 @@ function validateForm(){
 
 function clearMessages(){
     for(let i= 0; i <errorNodes.length; i++){
-        errorNodes[i].innerText ="";
+        errorNodes[i].innerText = "";
         }
         success.innerText = "";
         nameInput.classList.remove("error-border");

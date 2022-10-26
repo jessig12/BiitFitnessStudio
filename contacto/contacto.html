@@ -65,17 +65,17 @@
         
           <!--contenido pagina-->
    <section id = "principalcont">
-      <div class="container-sm " id="contenedor1" >
+      <div class="container " id="contenedor1" >
         <div class="row text-center">
-          <div class="col-sm-4 ">
+          <div class="col-md-4 ">
             <i class="fa-solid fa-phone" id="iconf"></i>
             <p class="parr">Llamanos desde cualquier parte de la republica</p>
           </div>
-          <div class="col-sm-4 ">
+          <div class="col-md-4 ">
             <i class="fa-solid fa-pen-nib" id="iconf"></i>
             <p class="parr">Usa el chat en nuestra plataforma o red social</p>
           </div>
-          <div class="col-sm-4 ">
+          <div class="col-md-4 ">
             <i class="fa-solid fa-user" id="iconf"></i>
             <p class="parr">Responderemos tus dudas</p>
           </div>
@@ -83,37 +83,36 @@
       </div>
       </section>
         <!--CONTENIDO SEGUNDA SECCION-->
-        <div class="container text-center my-5">
+        <div class="container text-center">
           <h3>Se Parte de nuestra familia</h3>
             <div class="row">
-                <div class="col my-5 ">
+                <div class="col-md my-5 ">
                       <p class="pwhite">Pregunta sobre nuestros programas personalizados o asesoramientos nutricionales</p>
                         <br>
-                        <p class="pwhite">En Biit Fitness Studio estamos dispuestos en apoyarte. Queremos escuchar cualquier recomendación o crítica para mejorar nuestra experiencia y servicios.</p>
+                        <p class="pwhite">En Biit Fitness Studio estamos comprometidos en apoyarte. Queremos escuchar cualquier recomendación o crítica para mejorar nuestra experiencia y servicios.</p>
                 </div>
-                <div class="col my-5" id="imgfinal">
-                  
+                <div class="col-md my-5" id="imgfinal">
+               
                 </div>
               </div>
               <div class="row">
-              <div class="container my-5">
+              <div class="col ">
             
-                <p class="pwhite">Si deseas realizar una pregunta o sugerencia da click en <em><a type="submit" id="botonSubir"  class="btn btn-danger" href="../quejas/quejas.html">Apartado de quejas</a></em><br>Atencion a distancia <br> biitfit@correo.com</p>
-          </div>
-         
-    </div>
-              
-              
+                <p class="pwhite">Si deseas realizar una pregunta o sugerencia da click en : </p>
+                  <button type="submit" id="botonSubir"  id="lastBtn" class="btn btn-danger" href="../quejas/quejas.html">Apartado de quejas</button>
+                  <p class="pwhite">Atencion a distancia <br> biitfit@correo.com</p>
+              </div>
+            </div>    
         </div>
         
         
         <!--formulario-->
         <div class="container" id="formularioPie">
-        <form method="post" id="biit"class="registro" onsubmit="event.preventDefault(); validateForm()">
-          <h4>REGISTRO BIIT FAMILY</h4>
+        <form id="biit"class="registro" onsubmit="event.preventDefault(); validateForm()">
+          <h5>REGISTRO BIIT FAMILY</h5>
           <div class="col">
             <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" name="email" placeholder="etc@email.com" required>
+            <input type="text" class="form-control" id="email" name="email" placeholder="etc@email.com" required>
             <small class="error"></small>
           </div>
       
@@ -125,7 +124,7 @@
           <div class="col">
             <label for="phone" class="form-label">Telefono</label>
             <input type="tel"  class="form-control" id="phone"  required>
-            <small class="error"></small>
+            
           </div>
           <div class="col">
             <label for="asunto" class="form-label">Asunto</label>
@@ -134,7 +133,7 @@
           </div>
           <div class="col">
             <label for="message" class="form-label">Mensaje</label>
-            <textarea id="message" name="message" class="form-control" placeholder="Dichoso mensaje"  required></textarea>
+            <textarea id="message"  class="form-control" placeholder="Dichoso mensaje"  required></textarea>
             <small class="error"></small>
           </div>
           <div class="row">
@@ -145,9 +144,9 @@
               </label>
             </div>
           </div>
-          <div class="col">
-            <button onclick="validar()" id="boton" type="submit" class="btn btn-danger">NUEVO MIEMBRO</button>
-            <p id="Envio exitoso"></p>
+          <div class="center">
+            <button id="boton" type="submit" class="btn btn-danger">NUEVO MIEMBRO</button>
+            <p id="success"></p>
           </div>
         </form>
         <script type="text/javascript"
