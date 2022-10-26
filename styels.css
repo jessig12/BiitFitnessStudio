@@ -22,6 +22,12 @@ html {
 
   }
 }
+#navbarNavDropdown {
+  justify-content:flex-end;
+  font-size: 1.5rem;
+  font-family: 'Teko', sans-serif;
+}
+
 #menu{
   display: flex;
   justify-content:flex-end;
@@ -175,7 +181,14 @@ html {
   align-items: center;
 }
 
+#redes {
+  background-color: black;
+}
 
-
+.btn:hover{
+  font-family: 'Teko', sans-serif;
+  background: red; 
+  box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+}
 
   
