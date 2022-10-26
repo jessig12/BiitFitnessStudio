@@ -5,7 +5,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: inherit;
   font-family: "Teko", sans-serif;
 }
 
@@ -16,7 +15,6 @@ body {
   font-family: "Teko", sans-serif;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
 
 }
 

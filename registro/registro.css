@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap'); 
 * {
-  margin: 0;
+  margin: 0%;
   padding: 0;
   box-sizing: border-box;
   color: inherit;
@@ -11,6 +11,7 @@
 
 body {
   cursor: url(../assets/manc-removebg-preview.png), default;
+
   padding: 0;
   margin: 0;
   font-family: "Teko", sans-serif;
@@ -41,7 +42,7 @@ html {
 
 .after:after {
   content: " ";
-  display: block;
+  display: flex;
   height: 9px;
   background: #e42313;
   width: 100%;
@@ -55,18 +56,15 @@ justify-content:flex-end;
   font-family: 'Teko', sans-serif;
 }
 
-
 .nav-link:hover {
   background: #e42313;
   box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
 }
 
 
-
 #redes {
   background-color: black;
 }
-
 
 
 .btn:hover {
@@ -88,3 +86,5 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+
