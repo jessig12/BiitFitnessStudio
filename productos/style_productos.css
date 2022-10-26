@@ -2,10 +2,27 @@
     display: inline-block;
     width: 100%;
 }
-body{
-
+html, body{
     cursor: url(../assets/manc-removebg-preview.png), default;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    font-family: 'Teko', sans-serif;
+  
 }
+#container-foto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: items;
+    max-width: fit-content;
+    max-width: fit-content;
+}   
+
+.titulo1{
+    font-size: 3rem;
+    margin:50px;
+}    
+
 .product-container {
     display: flex;
     flex-direction: row;
