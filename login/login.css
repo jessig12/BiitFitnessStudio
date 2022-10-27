@@ -86,7 +86,7 @@ html{
 #cuadrado {
   text-align: center;
   background-color: black;
-  opacity: 0.8;
+  opacity: 0.87;
   height: 300px;
   justify-content: center;
   align-items: center;
@@ -98,7 +98,7 @@ html{
 #login2 {
   text-align: center;
   background-color: black;
-  opacity: 0.75;
+  opacity: 0.87;
   height: 550px;
   display: flex;
   justify-content: center;
