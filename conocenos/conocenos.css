@@ -3,11 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
 
 
-html, body {
+html {
   cursor: url(../assets/manc-removebg-preview.png), default;
   max-width: 100% !important;
   overflow-x: hidden !important;
   font-family: 'Teko', sans-serif;
+  font-size: 20px;
+    @media screen and (max-width 900px) {
+      font-size: 20px;
+    }
 }
   
   #logo{
