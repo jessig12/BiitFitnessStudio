@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable-no, initial-scale=1.0, maximum-1.0, minimum scale-1.0">
+    <link rel="stylesheet" href="/galeria.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Galería</title>
+   
+</head>
+<body>
+  <!--Header de la página-->
+  <%- include('./partials/_header'); %>
+  <!--Linea divisoría-->
+  <div class="navbar-after">
+    <a class="after"></aclass></a>
+  </div>
+
+      <!--Título-->
+      <div class="container-tit">
+        <marquee behavior="" direction="">
+        <h1 class="titulo">GALERÍA BIIT FAMILY</h1>
+        </marquee>
+       </div>
+
+
+<!-- carousel-->
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10" aria-label="Slide 11"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://i.ibb.co/qgVqy3v/ca1.jpg" class="d-block w-100"  alt="ca1" border="0" />
+      <div class="carousel-caption d-none d-md-block" id="ca1">
+        <h4>¡Bienvenido a la Biit Family!</h4>
+        <p>Samy es la mascota oficial de Biit Fitness Studio, es súper cariñoso y siempre te dará una patita amiga para que continúes tu proceso de transformación.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.ibb.co/f8bx3sB/ca2.jpg" class="d-block w-100" alt="ca2" border="0" />
+      <div class="carousel-caption d-none d-md-block" id="ca2">
+        <h4>¡Relatos Biit Family!</h4>
+        <p>Yuki nos comparte su experiencia en Biit Fitness.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.ibb.co/wpgDDqN/ca3.jpg" class="d-block w-100" alt="ca3" border="0" />
+      <div class="carousel-caption  d-none d-md-block" id="ca3">
+        <h4>¡Transformación positiva!</h4>
+        <p>Sofía está súper enfocada en su transformación y nos alegra poder ser parte de su proceso.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.ibb.co/VLCGtcP/ca4.jpg" class="d-block w-100" alt="ca4" border="0" />
+      <div class="carousel-caption d-none d-md-block" id="ca4">
+        <h4>¡Una sonrisa lo dice todo!</h4>
+        <p>Mi nombre es Loreta y desde que llegué a la Biit Family me he sentido muy motivada en lograr todos mis objetivos, no desisitir y seguir construyendo la mejor versión de mi.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.ibb.co/QQfQxpb/ca5.jpg" class="d-block w-100" alt="ca5" border="0" />
+      <div class="carousel-caption d-none d-md-block" id="ca5">
+        <h4>¡Pao, una Súper Mommy!</h4>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.ibb.co/2NSxFxS/ca6.jpg" class="d-block w-100 alt="ca6" border="0" />
+      <div class="carousel-caption d-none d-md-block" id="ca6">
+        <h1>¡Biit Family!</h1>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.ibb.co/vPg4wdN/ca7.jpg" class="d-block w-100" alt="ca7" border="0" />
+      <div class="carousel-caption d-none d-md-block" id="ca7">
+        <h4>¡Impresiones Biit!</h4>
+        <p>Sebas nos comparte su vivencia y sus impresiones de Biit Fitness Studio</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.ibb.co/5L7rFKC/ca8.jpg" class="d-block w-100" alt="ca8" border="0" />
+      <div class="carousel-caption d-none d-md-block" id="ca8">
+        <p>¡Una verdadera Biit Family!</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.ibb.co/HxwK7RG/ca9.jpg" class="d-block w-100" alt="ca9" border="0" />
+      <div class="carousel-caption d-none d-md-block" id="ca9">
+        <h4>¡Actitud Positiva!</h4>
+        <p>Quique nos comenta que su actitud es la protagonista para ir tras sus metas.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.ibb.co/596xLbc/ca10.jpg" class="d-block w-100" alt="ca10" border="0" />
+      <div class="carousel-caption d-none d-md-block" id="ca10">
+        <h4>¡Look at the mirror!</h4>
+        <p>Alex nos envía: 
+          <br>
+          Antes no podía vereme al espejo, me avergonzaba y no me gustaba, pero desde que trabaje en mi por dentro y por fuera, el espejo es mi mejor amigo.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.ibb.co/r5CB79Q/ca11-2.jpg" class="d-block w-100" alt="ca11-2" border="0" />
+      <div class="carousel-caption d-none d-md-block" id="ca11">
+        <h4>¡Viva la Biit Family!</h4>
+        <p>Armando, uno de nuestros Biit Partners nos comparte: 
+          <br>
+          Entrenar en Biit Fitness Studio, es la mejor elección de mi vida, amo la convivencia tan cool que se genera entre todos mis partners, todos son muy solidarios y es algo que me hace sentir en mi lugar seguro.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<!--Linea divisoría inferior-->
+<div class="navbar-after">
+  <a class="after"></aclass></a>
+</div>
+
+
+<!--Footer-->
+<%- include('./partials/_footer'); %>
+            
+      <script src="/galeria.js"></script>
+      <script src="/js/bootstrap.bundle.min.js"></script>
+      
+</body>
+</html>

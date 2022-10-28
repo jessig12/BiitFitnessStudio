@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    color: inherit;
+    font-family: "Teko", sans-serif;
+ }
+
+ html, body {
+    cursor: url(/assets/manc-removebg-preview.png), default;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    font-family: 'Teko', sans-serif;
+  }
+  
+  
+  .carousel-img {
+      object-fit: contain;
+      object-position: center;
+  }
+  

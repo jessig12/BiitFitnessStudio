@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable-no, initial-scale=1.0, maximum-1.0, minimum scale-1.0">
+    <link rel="stylesheet" href="/conocenos.css">
+    <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Conócenos</title>
+   
+</head>
+<body>
+  <!--Header de la página-->
+  <%- include('./partials/_header'); %>
+  <!--Linea divisoría-->
+  <div class="navbar-after">
+    <a class="after"></aclass></a>
+  </div>
+
+  <!--Imagen de bienvenida-->
+    <div id="container-foto">
+  <img id="inicio" src="https://i.ibb.co/5jX9zqF/Perrito-biit.jpg" alt="perruki" width="100%" height="50%">
+    </a>
+ </div>
+ <!--Titulo Quiénes somos-->
+ <div class="container-tit">
+  <marquee behavior="" direction="">
+  <h1 class="titulo">¿Quiénes somos?</h1>
+  </marquee>
+ </div>
+ <!--Primer texto-->
+ <div class="container-txt1">
+  <p class="text1">Biit Fitness nace en el año 2018, y es un espacio creado con el propósito de activar en movimiento a todo aquel que desee realizar cambios saludables en un ambiente cómodo y sin presiones.
+    <br>
+    Contamos con los mejores instructores certificados para apoyarte en las distintas disciplinas que la Biit Family ofrece.</p>
+</div>
+<!--Segundo texto con imagen (izq)-->
+<div class="container text-center">
+  <div class="row">
+    <div class="col my5 mx-3" id="col-txt1">
+      <h1>CONEXIÓN
+        Y 
+       ACCESIBILIDAD</h1>
+       
+      <p> Más conectados que nunca. 
+    <br>
+    Puedes entrenar virtualmente con nosotros a través del celular, la computadora o tu televisor, hay muchas maneras de seguir entrenando en casa junto a nosotros, no importa que no seas de Colima, todos los días tenemos rutinas diferentes, con progreso y estructura semanal, equipo mínimo como un par de mancuernas, un tapete y tu propio peso.</p>
+    <h4>
+  BiitTip: 
+    </h4>
+  <p>
+  Puedes entrenar junto a tus mascotas, recuerda que un acompañamiento con tu mejor amigo libera endorfinas y hace un ambiente más feliz.
+    </p>
+</p>
+    </div>
+    <div class="col my5 mx-3" id="col-img1">
+      <div class="embed-responsive embed-responsive-16by9 my-5">
+      <video src="../assets/perrito.mp4" width="400" height="450" autoplay controls muted>
+
+      </video>
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Tercer texto con imagen (izq)-->
+<div class="container text-center">
+  <div class="row">
+    <div class="col my5 mx-3" id="col-img2">
+      <div class="embed-responsive embed-responsive-16by9">
+        <img src="https://i.ibb.co/6Xjjm1C/sin-critica.gif" alt="sin-critica" border="0" />
+      </div>
+    </div>
+    <div class="col my5 mx-3" id="col-txt2">
+      <h1>SIN LIMITES
+        Y FRONTERAS</h1>
+       
+      <p> ¿Te intimida ir a un Gimnasio?
+        <br>
+        La buena noticia es que BIIT Fitness Studio no es un gimnasio tradicional y queremos ayudarte a vencer esos nervios para ayudarte a  alcanzar tu potencial</p>
+    </div>
+  </div>
+</div>
+
+<!--Botón contactanos-->
+<a href="/contacto" id="btn-cont" class="btn btn-secondary btn-lg" target="_blank">CONTÁCTANOS</a>
+
+
+ <!--Linea divisoría inferior-->
+ <div class="navbar-after">
+    <a class="after"></aclass></a>
+  </div>
+
+
+<!--Footer-->
+<%- include('./partials/_footer'); %>
+        <!-- Script Bootstrap -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+   crossorigin="anonymous"></script>  
+
+    <script src="/conocenos.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
