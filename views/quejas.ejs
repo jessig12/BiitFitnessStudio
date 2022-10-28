@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="quejas.css">
+    <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Quejas y sugerencias</title>
+</head>
+<body>
+    <!--navbar-->
+    <%- include('./partials/_header'); %>
+    <!--linea roja-->
+    <div class="navbar-after">
+        <a class="after"></a class></a>
+    </div>
+    <div class="container-fluid rectangulo" id="sec1">
+        <div class="container my-5 rectangulo">
+            <h1 class="titulo">QUEJAS Y SUGERENCIAS </h1>
+        </div>
+    </div>
+    <!--linea roja-->
+    <div class="navbar-after">
+        <a class="after"></a class></a>
+    </div>
+    <div id="body2">
+        <div class="container w-50 h-50 " id="formulario">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput2" class="form-label">Asunto</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Asunto">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Queja y sugerencia</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escriba aqui su queja o sugerencia"rows="3"></textarea>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">No soy un robot</label>
+              </div>
+              <button type="submit" class="btn btn-danger btn-lg justify-content-center">Enviar</button>
+        </div>
+
+    </div>
+    <!--linea roja-->
+    <div class="navbar-after">
+      <a class="after"></a class></a>
+  </div>
+  <%- include('./partials/_footer'); %>
+
+</body>
+</html>
