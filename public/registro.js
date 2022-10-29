@@ -12,7 +12,7 @@ form.addEventListener("submit", e=>{
   let warnings = ""
   let entrar = false
   let regexEmail = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/
-  let regex = /[^+\d]/
+  let regex = /^\d{3}-\d{3}-\d{3}$/
   parrafo.innerHTML = ""
 
   if(firtsName.value.length < 6){
@@ -24,11 +24,11 @@ form.addEventListener("submit", e=>{
     entrar = true
   }
   if (regex.test(movil.value)){
-    warnings += `El telefono no es valido <br>`
+    warnings += `El teléfono no es valido <br>`
     entrar = true
   }
 
-  if (password.value.length < 5){
+  if (password.value.length < 6){
     warnings += `La contraseña no es valida <br>`
     entrar = true
   }

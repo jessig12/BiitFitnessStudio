@@ -4,8 +4,16 @@ img {
   margin-top: auto;
 }
 
+
+
+.img{
+ 
+  block-size: auto;
+}
+
 main {
   background-color: black;
+  margin-top: auto;
 }
 
 .titulo {
@@ -72,7 +80,7 @@ main {
 #membresias {
   text-align: center;
   background-color: rgb(0, 0, 0);
-  opacity: 0.88;
+  opacity: 0.91;
   height: 550px;
   width: 520;
 

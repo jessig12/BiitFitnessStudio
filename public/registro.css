@@ -9,9 +9,10 @@
   background: rgb(0, 0, 0);
   box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
 }
-
-footer {
-  margin-top: auto;
+#col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #boton:hover {
@@ -44,4 +45,15 @@ footer {
 #titulo {
   font-size: 3.5rem;
   color: black;
+}
+
+
+
+footer {
+  margin-top: auto;
+}
+
+main {
+  margin-top: auto;
+
 }

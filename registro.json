@@ -10,8 +10,7 @@
   "first_name": "Elizabeth",
   "last_name": "Crisóstomo",
   "movil": "5614568536",
-  "state": "Edo. México",
-  "city": "Tlalnepantla",
+  "passwor": "12345678",
   "avatar": "https://i.ibb.co/gdQm0vJ/Eli.jpg"
   },
   {
@@ -20,8 +19,7 @@
   "first_name": "Jessi",
   "last_name": "Weaver",
   "movil": "5614568536",
-  "state": "Edo. México",
-  "city": "Tultitlán",
+  "passwor": "12345678",
   "avatar": "https://i.ibb.co/qjxnNxC/jessi.jpg"
   },
   {
@@ -30,8 +28,7 @@
   "first_name": "Karla",
   "last_name": "Wong",
   "movil": "5614568536",
-  "state": "Edo. México",
-  "city": "Tultitlán",
+  "passwor": "12345678",
   "avatar": "https://i.ibb.co/9VKqyKD/karla.jpg"
   },
   {
@@ -40,8 +37,7 @@
   "first_name": "Kevin",
   "last_name": "Holt",
   "movil": "5614568536",
-  "state": "Edo. México",
-  "city": "Tultitlán",
+  "passwor": "12345678",
   "avatar": "https://i.ibb.co/FYkKH68/kevin.jpg"
   },
   {
@@ -50,13 +46,8 @@
   "first_name": "Rodrigo",
   "last_name": "Morris",
   "movil": "5614568536",
-  "state": "Edo. México",
-  "city": "Tultitlán",
+  "passwor": "12345678",
   "avatar": "https://i.ibb.co/QbmxwsQ/rodrigo.jpg"
   }
-  ],
-  "support": {
-  "url": "https://reqres.in/#support-heading",
-  "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
-  }
+  ]
   }
