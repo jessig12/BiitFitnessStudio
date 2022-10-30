@@ -1,3 +1,9 @@
+
+form.addEventListener("submit", e => {
+
+  e.preventDefault()
+  const formData = new FormData(form);
+
 app.post('/validar-login', (req, res) => {
 
   let rawdata = fs.readFileSync('./registro.json'); // json file is db in memory
@@ -12,4 +18,3 @@ app.post('/validar-login', (req, res) => {
   }
 });
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'));
