@@ -1,20 +1,14 @@
 
-form.addEventListener("submit", e => {
+function entrar(){
+  const email = document.getElementById('inputEmail4').value;
+  const password = document.getElementById('inputPassword').value;
 
-  e.preventDefault()
-  const formData = new FormData(form);
+ if (email == "elizabeth@gmail.com" && password == '12345678'){
+window.location.href = '/';
+localStorage.usuario = email
+ }else{
+  alert('Error')
+ }
 
-app.post('/validar-login', (req, res) => {
-
-  let rawdata = fs.readFileSync('./registro.json'); // json file is db in memory
-  let registros = JSON.parse(rawdata);
-
-  if (registros.data.find((usuario) => usuario.email === req.body.email && usuario.password === req.body.password)) {
-    registros.data.push(req.body);
-
-    res.send({ status: "ok" })
-  } else {
-    res.send({ status: "error", message: "usuario y contrasena no validos" })
-  }
-});
+}
 
