@@ -1,0 +1,47 @@
+
+
+#redes {
+  background-color: black;
+}
+
+
+.btn:hover {
+  background: rgb(0, 0, 0);
+  box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+}
+
+footer {
+  margin-top: auto;
+}
+
+#boton:hover {
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-size: 1.1rem;
+  background: rgb(0, 0, 0);
+  box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.form-control {
+  background-color: rgb(198, 198, 198);
+}
+
+
+#warnings {
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  color: #e42313;
+  padding-top: 40px;
+  font-size: 2rem;
+}
+
+
+#titulo {
+  font-size: 3.5rem;
+  color: black;
+}

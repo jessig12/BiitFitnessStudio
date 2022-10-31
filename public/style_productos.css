@@ -1,0 +1,57 @@
+.banner-img {
+    display: inline-block;
+    width: 100%;
+}
+
+#container-foto{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}   
+
+.titulo1{
+    font-size: 3rem;
+    margin:50px;
+}    
+
+.product-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    overflow: scroll;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+    max-height: fit-content;
+
+    padding: 2em;
+
+    font-family: "Teko";
+}
+.product-card img{
+    max-width: 150px;
+    max-height: 150px;
+    border-radius:16px;
+    }
+    
+
+.product-title,
+.product-price {
+    font-weight: bolder;
+}
+#navbarNavDropdown{
+    justify-content:flex-end;
+    font-size: 1.5rem;
+    font-family: 'Teko', sans-serif;
+  }
+
+/* Small screens */
+@media screen and (max-width: 600px) {
+}

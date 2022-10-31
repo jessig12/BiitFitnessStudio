@@ -1,0 +1,239 @@
+
+.squareRed {
+  width: 100%;
+  height: 116px;
+  display: flex;
+  background-color:#cd3232;
+  align-items: center;
+ 
+}
+h1{
+  font-family: 'Teko', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  text-align: center center; 
+  color:#ffffff;
+  
+}
+
+  main {
+    background-color: black;
+  }
+  
+  .titulo{
+    color: white;
+    font-size: 3rem;
+    font-family: "Teko", sans-serif;
+  }
+    
+  
+    .container-tit{
+      text-align: center;
+      background-color: #e42313;
+      width: 100%;
+      padding: 20px;
+      min-height: 50px;
+      margin-top:auto;
+    }
+  
+  .galeria{
+    background-color: #231e1e;
+  }
+
+  .carousel-inner{
+    object-fit: cover;
+  }
+
+  #ca1 h4{
+    color:white;
+    font-weight: bold;
+    font-family: "Teko", sans-serif;
+    font-size: 1.5rem;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.75;
+  }
+
+  #ca1{
+    color:white;
+    font-weight: bold;
+    font-family: "Teko", sans-serif;
+    font-size: 1.5rem;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.75;
+    
+  }
+
+  #ca2 h4{
+    font-weight: bold;
+    color:white
+    font-family: "Teko", sans-serif;
+    font-size: 1.5rem;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.75;
+  }
+
+  #ca2{
+    font-weight: bold;
+    color:white;
+    font-family: "Teko", sans-serif;
+    font-size: 1.5rem;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.75;
+  }
+
+  #ca3 h4{
+    font-weight: bold;
+    color:white;
+    font-family: "Teko", sans-serif;
+    font-size: 1.5rem;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.75;
+  }
+
+  #ca3{
+    font-weight: bold;
+    color:white;
+    font-family: "Teko", sans-serif;
+    font-size: 1.5rem;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.75;
+  }
+  
+  #ca4 h4{
+    font-weight: bold;
+    color:white;
+    font-family: "Teko", sans-serif;
+    font-size: 1.5rem;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.75;
+  }
+
+  #ca4{
+    font-weight: bold;
+    color:white;
+    font-family: "Teko", sans-serif;
+    font-size: 1.5rem;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.75;
+  }
+
+  #ca5 h4{
+    font-weight: bold;
+    color:white;
+    font-family: "Teko", sans-serif;
+    font-size: 1.5rem;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.75;
+  }
+
+
+  #ca6 h1{
+    font-weight: bold;
+    color:white;
+    font-family: "Teko", sans-serif;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.75;
+  }
+
+  #ca7 h4{
+    font-weight: bold;
+    color:white;
+    font-family: "Teko", sans-serif;
+    font-size: 1.5rem;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.75;
+  }
+
+  #ca7{
+    font-weight: bold;
+    color:white;
+    font-family: "Teko", sans-serif;
+    font-size: 1.5rem;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.75;
+  }
+  #ca8{
+    font-weight: bold;
+    color:white;
+    font-family: "Teko", sans-serif;
+    font-size: 1.5rem;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.75;
+  }
+
+  #ca9 h4{
+    font-weight: bold;
+    color:white;
+    font-family: "Teko", sans-serif;
+    font-size: 1.5rem;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.75;
+  }
+
+  #ca9{
+    font-weight: bold;
+    color:white;
+    font-family: "Teko", sans-serif;
+    font-size: 1.5rem;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.75;
+  }
+
+  #ca10 h4{
+    font-weight: bold;
+    color:white;
+    font-family: "Teko", sans-serif;
+    font-size: 1.5rem;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.75;
+  }
+
+  #ca10{
+    font-weight: bold;
+    color:white;
+    font-family: "Teko", sans-serif;
+    font-size: 1.5rem;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.75;;
+  }
+
+  #ca11 h4{
+    font-weight: bold;
+    color:white;
+    font-family: "Teko", sans-serif;
+    font-size: 1.5rem;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.75;
+  }
+
+  #ca11{
+    font-weight: bold;
+    color:white;
+    font-family: "Teko", sans-serif;
+    font-size: 1.5rem;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.75;;
+  }
+
+
+  
+  
+  #redes {
+    background-color: black;
+  }
+
+      .btn:hover{
+        font-family: 'Teko', sans-serif;
+        background: red; 
+        box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+      }
+
+
+  
+  
+ 
+  
+
+
