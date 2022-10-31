@@ -29,7 +29,7 @@ body {
 #cuadrado {
   text-align: center;
   background-color: black;
-  opacity: 0.87;
+  opacity: 0.91;
   height: 300px;
   justify-content: center;
   align-items: center;
@@ -86,4 +86,5 @@ footer {
 
 main {
   margin-top: auto;
+  
 }

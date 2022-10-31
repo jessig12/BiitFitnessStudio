@@ -1,12 +1,20 @@
-function login() {
-  let user, pass;
-  user = document.getElementById("inputEmail4")
-  pass = document.getElementById("inputPassword")
 
-  if (user == "elizabeth@gmail.com" && pass == "1234" || user == "Karla@gmail.com" && pass === "123")  {
+form.addEventListener("submit", e => {
 
-    window.location = "./index.html";
+  e.preventDefault()
+  const formData = new FormData(form);
 
+app.post('/validar-login', (req, res) => {
+
+  let rawdata = fs.readFileSync('./registro.json'); // json file is db in memory
+  let registros = JSON.parse(rawdata);
+
+  if (registros.data.find((usuario) => usuario.email === req.body.email && usuario.password === req.body.password)) {
+    registros.data.push(req.body);
+
+    res.send({ status: "ok" })
+  } else {
+    res.send({ status: "error", message: "usuario y contrasena no validos" })
   }
+});
 
-}
