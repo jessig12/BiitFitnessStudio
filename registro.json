@@ -28,7 +28,7 @@
   "first_name": "Karla",
   "last_name": "Wong",
   "movil": "5614568536",
-  "passwor": "12345678",
+  "password": "12345678",
   "avatar": "https://i.ibb.co/9VKqyKD/karla.jpg"
   },
   {
@@ -37,7 +37,7 @@
   "first_name": "Kevin",
   "last_name": "Holt",
   "movil": "5614568536",
-  "passwor": "12345678",
+  "password": "12345678",
   "avatar": "https://i.ibb.co/FYkKH68/kevin.jpg"
   },
   {
@@ -46,7 +46,7 @@
   "first_name": "Rodrigo",
   "last_name": "Morris",
   "movil": "5614568536",
-  "passwor": "12345678",
+  "password": "12345678",
   "avatar": "https://i.ibb.co/QbmxwsQ/rodrigo.jpg"
   }
   ]

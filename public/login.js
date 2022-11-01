@@ -1,4 +1,5 @@
 
+
 function entrar(){
   const email = document.getElementById('inputEmail4').value;
   const password = document.getElementById('inputPassword').value;
@@ -7,7 +8,7 @@ function entrar(){
 window.location.href = '/';
 localStorage.usuario = email
  }else{
-  alert('Error')
+  alert('Error contraseña o correo incorrecto')
  }
 
 }
