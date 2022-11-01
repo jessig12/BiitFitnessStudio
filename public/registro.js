@@ -38,6 +38,7 @@ form.addEventListener("submit", e => {
   }
   if (entrar) {
     parrafo.innerHTML = warnings
+   
   }
   else {
     parrafo.innerHTML = "Registro exitosamente"
