@@ -54,39 +54,4 @@ app.get('/biitfam', (req, res) => {
 
 
 
-
-//////////////////////////////////////Registro ///////////////////////////////////////////////////////////////
-app.post('/registro/guardar', (req, res) => {
-
-  let rawdata = fs.readFileSync('./registro.json'); // json file is db in memory
-  let registros = JSON.parse(rawdata);
-
-  if (!registros.data.find((usuario) => usuario.email === req.body.email)) {
-    registros.data.push(req.body);
-
-    fs.writeFileSync('registro.json', JSON.stringify(registros, null, 2));
-    console.log("registro guardado")
-    res.send({ status: "ok" })
-  } else {
-    console.log("ya existe un usuario con este correo")
-    res.send({ status: "error", message: "email ya registrado" })
-  }
-});
-
-
-////////////////////////////login//////////////////////////////////////////////
-app.post('/validar-login', (req, res) => {
-
-  let rawdata = fs.readFileSync('./registro.json'); // json file is db in memory
-  let registros = JSON.parse(rawdata);
-
-  if (registros.data.find((usuario) => usuario.email === req.body.email && usuario.password === req.body.password)) {
-    registros.data.push(req.body);
-
-    res.send({ status: "ok" })
-  } else {
-    res.send({ status: "error", message: "usuario y contrasena no validos" })
-  }
-});
-
-app.listen(3000, () => console.log('Example app listening on port 3000!'));
+app.listen(process.env.PORT || 3000, () => console.log(`Example app listening on port ${process.env.PORT || 3000}!`));
