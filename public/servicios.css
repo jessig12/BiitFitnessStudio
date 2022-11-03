@@ -83,8 +83,18 @@ main {
   opacity: 0.91;
   height: 550px;
   width: 520;
-
+  border-radius:0px 70px 70px 0px;
 }
+
+#membresias1 {
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.91;
+  height: 550px;
+  width: 520;
+  border-radius:70px 0px 0px 70px;
+}
+
 
 
 #h2 {

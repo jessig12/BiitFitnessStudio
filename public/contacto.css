@@ -211,10 +211,10 @@ object-fit: cover;
 }
 form{
   max-width:100%;
-  background: #e424139b;
+  background:  #e42413b5;
   font-family: 'Teko', sans-serif;
   color: black;
-  font-size:1.5vw;
+  font-size:2rem;
   margin:17vh auto 0 auto;
   padding : 40px;
   border-radius: 3px;
@@ -223,7 +223,7 @@ form{
 h5{
   margin:0;
   text-align:center;
-  font-size: 2.2rem;
+  font-size: 2.3rem;
   font-family: "Teko", sans-serif;
 }
 
@@ -269,7 +269,9 @@ color: red;
 }
 
 .error{
-  color:rgb(0, 0, 201);
+  color:rgb(255, 255, 255);
+  font-size: 1.8rem;
+  font-family: "Teko", sans-serif;
 }
 
 .error-border{
