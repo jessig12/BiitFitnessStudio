@@ -1,8 +1,5 @@
 {
-  "page": 1,
-  "per_page": 6,
-  "total": 12,
-  "total_pages": 2,
+
   "data": [
   {
   "id": 1,
@@ -18,8 +15,8 @@
   "email": "jessi@gmail.com",
   "first_name": "Jessi",
   "last_name": "Weaver",
-  "movil": "5614568536",
-  "passwor": "12345678",
+  "movil": "5555555555",
+  "passwor": "1234567",
   "avatar": "https://i.ibb.co/qjxnNxC/jessi.jpg"
   },
   {
@@ -27,7 +24,7 @@
   "email": "karla@gmail.com",
   "first_name": "Karla",
   "last_name": "Wong",
-  "movil": "5614568536",
+  "movil": "5555555555",
   "password": "12345678",
   "avatar": "https://i.ibb.co/9VKqyKD/karla.jpg"
   },
@@ -36,7 +33,7 @@
   "email": "kevin@gmail.com",
   "first_name": "Kevin",
   "last_name": "Holt",
-  "movil": "5614568536",
+  "movil": "5555555555",
   "password": "12345678",
   "avatar": "https://i.ibb.co/FYkKH68/kevin.jpg"
   },
@@ -45,7 +42,7 @@
   "email": "rodrigo@gmail.com",
   "first_name": "Rodrigo",
   "last_name": "Morris",
-  "movil": "5614568536",
+  "movil": "55555555",
   "password": "12345678",
   "avatar": "https://i.ibb.co/QbmxwsQ/rodrigo.jpg"
   }

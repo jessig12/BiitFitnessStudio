@@ -7,7 +7,19 @@ function entrar(){
  if (email == "elizabeth@gmail.com" && password == '12345678'){
 window.location.href = '/';
 localStorage.usuario = email
- }else{
+ }
+ else if (email == "jessi@gmail.com" && password == '1234567'){
+  window.location.href = '/';
+  localStorage.usuario = email
+   }
+   else if (email == "kevin@gmail.com" && password == '123456'){
+    window.location.href = '/';
+    localStorage.usuario = email
+     }
+     else if (email == "rodrigo@gmail.com" && password == '12345678'){
+      window.location.href = '/';
+      localStorage.usuario = email
+       }else{
   alert('Error contraseña o correo incorrecto')
  }
 
