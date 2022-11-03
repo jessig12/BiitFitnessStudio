@@ -43,7 +43,7 @@
     <!--contenido pagina-->
     <section id="principalcont">
       <div class="container " id="contenedor1">
-        <div class="row text-center">
+        <div id="cuadro" class="row text-center">
           <div class="col-md-4 ">
             <i class="fa-solid fa-phone" id="iconf"></i>
             <p class="parr">Llamanos desde cualquier parte de la republica</p>
@@ -83,11 +83,10 @@
       </div>
     </div>
 
-
     <!--formulario-->
     <div class="container" id="formularioPie">
       <form method="post" id="biit" class="registro" onsubmit="event.preventDefault(); validateForm()">
-        <h5>REGISTRO BIIT FAMILY</h5>
+        <h5 id="h5">REGISTRO BIIT FAMILY</h5>
         <div class="col">
           <label for="name" id="namel" class="form-label">Nombre</label>
           <input type="text" id="name" class="form-control" placeholder="Juan Escutia">
@@ -98,8 +97,6 @@
           <input type="text" class="form-control" id="email" placeholder="etc@email.com">
           <small class="error"></small>
         </div>
-
-
         <div class="col">
           <label for="phone" id="phonel" class="form-label">Telefono</label>
           <input type="tel" class="form-control" id="phone">

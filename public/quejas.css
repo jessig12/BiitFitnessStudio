@@ -25,7 +25,7 @@
         line-height: 90px;
       }
       
-      #body2{
+      .body2{
         background-image: url('https://i.ibb.co/w7FKgJ7/quejas-Background.jpg');
         background-color: rgb(0, 0, 0);
         font-family: "Teko", sans-serif;
@@ -42,3 +42,12 @@
     margin-top: 200px;
 }
       
+.error{
+  color: #e42313;
+}
+
+#success{
+  color: #e42313;
+  font-size: 1.6rem;
+
+}

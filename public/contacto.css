@@ -124,15 +124,15 @@ h2{
   margin-bottom: 50px;
   font-family: 'Teko', sans-serif;
   font-size: 2rem;
-  background-color:#e42313;  
-  border-bottom: #e42313;
+  background-color:#090909;  
+  border-bottom: #000000;
   width: 50%;
 
 }
 
 #btn-2:hover {
-  background:#e42313; 
-  box-shadow: 0 0 10px #e42313, 0 0 40px #e42313, 0 0 80px #e42313;
+  background:#0b0b0b; 
+  box-shadow: 0 0 10px #000000, 0 0 40px #000000, 0 0 80px #000000;
 }
 
 
@@ -154,7 +154,7 @@ h2{
 
   .btn:hover {
     background: rgb(0, 0, 0); 
-    box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+    box-shadow: 0 0 10px rgb(239, 0, 0), 0 0 40px rgb(245, 7, 7), 0 0 80px rgb(247, 6, 6);
   }
 
   .sheSwimm{
@@ -206,18 +206,22 @@ object-fit: cover;
 }
 
 #contenedor1{
-  
   height: 400px;
   padding:100px;
-  
   align-items: center;
-
   justify-content: center center;
     background-color: rgba(233, 27, 27, 0.323);
 }
 form{
   max-width:100%;
+<<<<<<< HEAD
   background:rgba(245, 50, 50, 0.72);
+=======
+  background: #e424139b;
+  font-family: 'Teko', sans-serif;
+  color: black;
+  font-size:1.5vw;
+>>>>>>> cea23ff54b73c36397389fc2a279cacbce92ecaa
   margin:17vh auto 0 auto;
   padding : 40px;
   border-radius: 3px;
@@ -226,9 +230,14 @@ form{
 h5{
   margin:0;
   text-align:center;
+<<<<<<< HEAD
   font-family: 'Teko', sans-serif;
   color: #ffffff;
   font-size: 35px;
+=======
+  font-size: 2.2rem;
+  font-family: "Teko", sans-serif;
+>>>>>>> cea23ff54b73c36397389fc2a279cacbce92ecaa
 }
 #namel,#emaill,#phonel,#asuntol,#messagel,#checkl{
   font-family: 'Teko', sans-serif;
@@ -248,10 +257,14 @@ input, textarea{
   outline: none;
   resize: none;
   border: none;
-  border-bottom:1px solid #e42313; 
+  border-bottom:1px solid #000000; 
 }
  input[type= "text"]:focus, textarea:focus{
+<<<<<<< HEAD
   border-bottom: 1px solid #e42313(255, 0, 106);
+=======
+  border-bottom: 1px solid #000000;;
+>>>>>>> cea23ff54b73c36397389fc2a279cacbce92ecaa
  }
 
  textarea::-webkit-scrollbar{
@@ -270,18 +283,27 @@ input[type="submitf"]{
   margin-top:30px;
   width:90;
   max-width:200px;
+<<<<<<< HEAD
   background:linear-gradient(to right, #e42313, #e42313(255,67,61));
 color: #e42313;
+=======
+  background:linear-gradient(to right,#000000, #000000;);
+color: red;
+>>>>>>> cea23ff54b73c36397389fc2a279cacbce92ecaa
  font-size:17px;
  cursor: pointer;
  border-radius:3px;
 }
 
 .error{
+<<<<<<< HEAD
   color:blue;
   font-family: 'Teko', sans-serif;
   font-size: 30px;
   padding: 10px;
+=======
+  color:rgb(0, 0, 201);
+>>>>>>> cea23ff54b73c36397389fc2a279cacbce92ecaa
 }
 
 .error-border{
