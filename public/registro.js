@@ -1,3 +1,4 @@
+
 const firtsName = document.getElementById("inputFirstName");
 const lastName = document.getElementById("inputLastName");
 const email = document.getElementById("inputEmail4");
@@ -26,6 +27,7 @@ form.addEventListener("submit", e => {
   if (regexEmail.test(email.value)) {
     warnings += `El email no es valido <br>`
     entrar = true
+    localStorage.usuario = email
   }
   if (regex.test(movil.value)) {
     warnings += `El telefono no es valido <br>`
@@ -35,6 +37,7 @@ form.addEventListener("submit", e => {
   if (formData.get("inputPassword4").length < 5) {
     warnings += `La contraseña no es valida <br>`
     entrar = true
+    localStorage.usuario = email
   }
   if (entrar) {
     parrafo.innerHTML = warnings
@@ -43,4 +46,50 @@ form.addEventListener("submit", e => {
   else {
     parrafo.innerHTML = "Registro exitosamente"
   }
+
 })
+
+
+let main = function(){
+  captura_boton();
+}
+
+let captura_boton =function(){
+  document.querySelector("#boton").setAttribute("onclick","dataRead()");
+
+} 
+
+let dataRead = function(){
+  console.log("capturar los datos del formulario");
+  console.log(
+    document.querySelector("#inputFirstName").value,
+    document.querySelector("#inputLastName").value,
+    document.querySelector("#inputEmail4").value,
+    document.querySelector("#inputPassword4").value,
+    document.querySelector("#inputMovil").value
+  );
+  let myObject = {
+    //clave : valor
+    firtsName :document.querySelector("#inputFirstName").value,
+    lastName :document.querySelector("#inputLastName").value,
+    email :document.querySelector("#inputEmail4").value,
+    password :document.querySelector("#inputPassword4").value,
+   movil :document.querySelector("#inputMovil").value,
+  };
+  console.log(myObject);
+  //JSON debe ser un String
+console.log(JSON.stringify(myObject));
+save_localStorage(myObject);
+
+}
+ let save_localStorage = function(myObject){
+  localStorage.setItem("miInfo", JSON.stringify(myObject));
+ }
+
+ let read_localStorage = function(){
+  let miInfo = localStorage.getItem("miInfo");
+  let myObject = JSON.parse(miInfo);
+  console.log(myObject);
+ }
+
+main();
