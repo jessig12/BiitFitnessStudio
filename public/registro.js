@@ -85,11 +85,24 @@ save_localStorage(myObject);
  let save_localStorage = function(myObject){
   localStorage.setItem("miInfo", JSON.stringify(myObject));
  }
-
+/// esto fue opcional para ver como funciona el registro y los datos
  let read_localStorage = function(){
   let miInfo = localStorage.getItem("miInfo");
   let myObject = JSON.parse(miInfo);
   console.log(myObject);
+  document.querySelector("#inputFirstName").value = myObject.firtsName
+  document.querySelector("#inputLastName").value = myObject.lastName
+  document.querySelector("#inputEmail4").value = myObject.email
+  document.querySelector("#inputPassword4").value = myObject.password
+  document.querySelector("#inputMovil").value =  myObject.movil
+ }
+
+ let reset = function(){
+  document.querySelector("#inputFirstName").value = "";
+  document.querySelector("#inputLastName").value = "";
+  document.querySelector("#inputEmail4").value = "";
+  document.querySelector("#inputPassword4").value = "";
+  document.querySelector("#inputMovil").value = "";
  }
 
 main();

@@ -6,12 +6,12 @@
   object-fit: cover;
 }
 
-.container-tit{
+#cuadro{
   text-align: center;
   background-color: #e42313;
   width: 100%;
   padding: 20px;
-  min-height: 50px;
+  min-height: 60px;
   margin-top:auto;
 }
 
