@@ -42,5 +42,11 @@ form.addEventListener("submit", e => {
   }
   else {
     parrafo.innerHTML = "Registro exitosamente"
+  
+
   }
 })
+
+
+
+ 

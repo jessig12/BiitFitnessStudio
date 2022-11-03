@@ -50,8 +50,14 @@ app.get('/conocenos', (req, res) => {
 app.get('/biitfam', (req, res) => {
   res.render('biitfam');// archivo dentro de ./views
 });
+app.get('/miembros', (req, res) => {
+  res.render('miembros');// archivo dentro de ./views
+});
+
+
 
 
 
 
 app.listen(process.env.PORT || 3000, () => console.log(`Example app listening on port ${process.env.PORT || 3000}!`));
+
