@@ -27,26 +27,37 @@
     <div class="navbar-after">
         <a class="after"></a class></a>
     </div>
-    <div id="body2">
+    <!--formulario-->
+    
+    <div class="body2" id="formularioPie">
+        <form method="post" id="biit" class="registro" onsubmit="event.preventDefault(); validateForm()">
+
         <div class="container w-50 h-50 " id="formulario">
             <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                <small class="error"></small>
             </div>
             <div class="mb-3">
-                <label for="exampleFormControlInput2" class="form-label">Asunto</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Asunto">
+                <label for="asunto" class="form-label">Asunto</label>
+                <textarea id="subject" class="form-control" placeholder="Asunto"></textarea>
+                <small class="error"></small>
             </div>
             <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Queja y sugerencia</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escriba aqui su queja o sugerencia"rows="3"></textarea>
+                <label for="message" class="form-label">Queja y sugerencia</label>
+                <textarea class="form-control" id="message" placeholder="Escriba aqui su queja o sugerencia"rows="3"></textarea>
+                <small class="error"></small>
+
             </div>
             <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">No soy un robot</label>
+                <input type="checkbox" class="form-check-input" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">No soy un robot</label>
               </div>
-              <button type="submit" class="btn btn-danger btn-lg justify-content-center">Enviar</button>
+              <button id="boton" type="submit" class="btn btn-danger btn-lg justify-content-center" >Enviar</button>
+              <p id="success"></p>
+            </form>
         </div>
+    
 
     </div>
     <!--linea roja-->
@@ -55,6 +66,7 @@
   </div>
  
   <%- include('./partials/_footer'); %>
+  <script src="/quejas.js"></script>
 
 </body>
 </html>

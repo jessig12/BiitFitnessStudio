@@ -12,7 +12,8 @@
   
 
   }
-
+ 
+ 
   .container-tit{
     text-align: center;
     background-color: #e42313;
@@ -21,6 +22,7 @@
     min-height: 50px;
     margin-top:auto;
   }
+  
   
   .titulo{
     color: white;
@@ -93,10 +95,35 @@
  }
 
 @media ( max-width: 500px ){
+  .cuatro{
+    height: 300px;
+    width: 300px;
+  }
+  .titulo{
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Teko", sans-serif;
+    min-width: 250;
+    text-align: center;
+    
+  }
+
+  .titulo1{
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Teko", sans-serif;
+    min-width: 250;
+    text-align: center;
+    padding: 25px;
+  }
+  
+
+  }
 
 
 
-}
+
+
 
 #couches{
   color: #e42313 ;
