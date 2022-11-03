@@ -22,7 +22,7 @@
     </div>
     <!--Encabezado-->
 
-    <section class="sheSwimm">
+    <section class="sheSwimm" >
       <div class="container-sm text-center">
         <div class="row">
           <h1>CONTÁCTANOS</h1>
@@ -77,7 +77,7 @@
         <div class="col ">
 
           <p class="pwhite">Si deseas realizar una pregunta o sugerencia da click en : </p>
-          <a href="/quejas" type="submit" id="botonSubir" id="lastBtn" class="btn btn-danger">Apartado de quejas</a>
+          <a href="/quejas" type="submit"  id="lastBtn" class="btn btn-danger">APARTADO DE QUEJAS</a>
           <p class="pwhite">Atencion a distancia <br> biitfit@correo.com</p>
         </div>
       </div>
@@ -88,40 +88,40 @@
       <form method="post" id="biit" class="registro" onsubmit="event.preventDefault(); validateForm()">
         <h5 id="h5">REGISTRO BIIT FAMILY</h5>
         <div class="col">
-          <label for="name" class="form-label">Nombre</label>
+          <label for="name" id="namel" class="form-label">Nombre</label>
           <input type="text" id="name" class="form-control" placeholder="Juan Escutia">
           <small class="error"></small>
         </div>
         <div class="col">
-          <label for="email" class="form-label">Email</label>
+          <label for="email" id="emaill" class="form-label">Email</label>
           <input type="text" class="form-control" id="email" placeholder="etc@email.com">
           <small class="error"></small>
         </div>
         <div class="col">
-          <label for="phone" class="form-label">Telefono</label>
+          <label for="phone" id="phonel" class="form-label">Telefono</label>
           <input type="tel" class="form-control" id="phone">
           <small class="error"></small>
         </div>
         <div class="col">
-          <label for="asunto" class="form-label">Asunto</label>
+          <label for="asunto" id="asuntol" class="form-label">Asunto</label>
           <input type="text" id="subject" class="form-control" name="asunto">
           <small class="error"></small>
         </div>
         <div class="col">
-          <label for="message" class="form-label">Mensaje</label>
+          <label for="message" id="messagel" class="form-label">Mensaje</label>
           <textarea id="message" class="form-control" placeholder="Dichoso mensaje"></textarea>
           <small class="error"></small>
         </div>
         <div class="row">
           <div class="form-check my-4">
             <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
+            <label class="form-check-label" id="checkl" for="gridCheck">
               Acepto uso de mis datos
             </label>
           </div>
         </div>
         <div class="center">
-          <button id="boton" type="submit" class="btn btn-danger">NUEVO MIEMBRO</button>
+          <button id="botonMember" type="submit" class="btn btn-danger">NUEVO MIEMBRO</button>
           <p id="success"></p>
         </div>
       </form>

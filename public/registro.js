@@ -45,7 +45,16 @@ form.addEventListener("submit", e => {
   }
   else {
     parrafo.innerHTML = "Registro exitosamente"
+  
+
   }
+<<<<<<< HEAD
+})
+
+
+
+ 
+=======
 
 })
 
@@ -106,3 +115,4 @@ save_localStorage(myObject);
  }
 
 main();
+>>>>>>> cea23ff54b73c36397389fc2a279cacbce92ecaa

@@ -164,6 +164,9 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    display:flex;
+  align-items: center;
+  justify-content: center;
     
 }
 #principalcont{
@@ -207,14 +210,25 @@ object-fit: cover;
   padding:100px;
   align-items: center;
   justify-content: center center;
-    background-color: rgba(239, 11, 11, 0.323);
+    background-color: rgba(233, 27, 27, 0.323);
 }
 form{
   max-width:100%;
+<<<<<<< HEAD
   background:  #e42413b5;
   font-family: 'Teko', sans-serif;
   color: black;
   font-size:2rem;
+=======
+<<<<<<< HEAD
+  background:rgba(245, 50, 50, 0.72);
+=======
+  background: #e424139b;
+  font-family: 'Teko', sans-serif;
+  color: black;
+  font-size:1.5vw;
+>>>>>>> cea23ff54b73c36397389fc2a279cacbce92ecaa
+>>>>>>> 48e74b8a39b4077d84b6495b061c7348c721ce8e
   margin:17vh auto 0 auto;
   padding : 40px;
   border-radius: 3px;
@@ -223,10 +237,25 @@ form{
 h5{
   margin:0;
   text-align:center;
+<<<<<<< HEAD
   font-size: 2.3rem;
+=======
+<<<<<<< HEAD
+  font-family: 'Teko', sans-serif;
+  color: #ffffff;
+  font-size: 35px;
+=======
+  font-size: 2.2rem;
+>>>>>>> 48e74b8a39b4077d84b6495b061c7348c721ce8e
   font-family: "Teko", sans-serif;
+>>>>>>> cea23ff54b73c36397389fc2a279cacbce92ecaa
 }
+#namel,#emaill,#phonel,#asuntol,#messagel,#checkl{
+  font-family: 'Teko', sans-serif;
+  color: #ffffff;
+  font-size: 30px;
 
+}
 label{
   display:block;
   margin:20px 0;
@@ -242,7 +271,11 @@ input, textarea{
   border-bottom:1px solid #000000; 
 }
  input[type= "text"]:focus, textarea:focus{
+<<<<<<< HEAD
+  border-bottom: 1px solid #e42313(255, 0, 106);
+=======
   border-bottom: 1px solid #000000;;
+>>>>>>> cea23ff54b73c36397389fc2a279cacbce92ecaa
  }
 
  textarea::-webkit-scrollbar{
@@ -261,23 +294,52 @@ input[type="submitf"]{
   margin-top:30px;
   width:90;
   max-width:200px;
+<<<<<<< HEAD
+  background:linear-gradient(to right, #e42313, #e42313(255,67,61));
+color: #e42313;
+=======
   background:linear-gradient(to right,#000000, #000000;);
 color: red;
+>>>>>>> cea23ff54b73c36397389fc2a279cacbce92ecaa
  font-size:17px;
  cursor: pointer;
  border-radius:3px;
 }
 
 .error{
+<<<<<<< HEAD
   color:rgb(255, 255, 255);
   font-size: 1.8rem;
   font-family: "Teko", sans-serif;
+=======
+<<<<<<< HEAD
+  color:blue;
+  font-family: 'Teko', sans-serif;
+  font-size: 30px;
+  padding: 10px;
+=======
+  color:rgb(0, 0, 201);
+>>>>>>> cea23ff54b73c36397389fc2a279cacbce92ecaa
+>>>>>>> 48e74b8a39b4077d84b6495b061c7348c721ce8e
 }
 
 .error-border{
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #e42313;
 }
 
 #Envio exitoso{
   color:#28a745;
+}
+
+#lastBtn{
+  font-family: 'Teko', sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 10px;
+}
+#botonMember{
+  font-family: 'Teko', sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 10px;
 }
