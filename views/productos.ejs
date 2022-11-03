@@ -1,90 +1,114 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport"
-        content="width=device-width, user-scalable-no, initial-scale=1.0, maximum-1.0, minimum scale-1.0" />
-    <link rel="stylesheet" href="/conocenos/conocenos.css" />
-    <link rel="stylesheet" href="/global.css">
-    <link rel="stylesheet" href="/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link rel="stylesheet" href="style_productos.css" />
-    <title>Productos</title>
-</head>
-
-<body>
-    <!--Barra de navegación-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrito de compras</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">  
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/carrito.css">
+  <link rel="stylesheet" href="/global.css">
+  </head>
+  <body>
+    <!--Header de la página (menú)-->
     <%- include('./partials/_header'); %>
-    <!--Linea divisoría-->
+  <!--Línea divisora-->
+  <div>
     <div class="navbar-after">
-        <a class="after"></a>
+      <a class="after"></aclass></a>
     </div>
-    <div id="container-foto">
-        <img src="https://i.ibb.co/XCc6GhF/spinito.jpg" width="100%"  alt="Whats-App-Image-2022-10-26-at-12-14-56-AM" 
-        />
+  </div>
+  <!--Imagen de bienvenida-->
+  <div id="container-foto">
+    <img id="inicio" src="https://i.ibb.co/6m28hsd/Whats-App-Image-2022-11-03-at-10-08-23-AM.jpg" alt="puercoespin" width="100%" height="50%">
+   </div>
+   <!--Titulo Quiénes somos-->
+   <div class="container-tit">
+    <marquee behavior="" direction="">
+    <h1 class="titulo">Carrito de compras</h1>
+    </marquee>
+   </div>
+
+
+    <div class="container">
+      <h1>Tu selección</h1>
+      <hr>
+      <div class="row" id="items"></div>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Item</th>
+            <th scope="col">Cantidad</th>
+            <th scope="col">Acción</th>
+            <th scope="col">Total</th>
+          </tr>
+        </thead>
+        <tbody id="items"></tbody>
+        <tfoot>
+          <tr id="footer">
+            <th scope="row" colspan="5">Carrito vacío, comienza tu experiencia de compra.</th>
+          </tr>
+        </tfoot>
+      </table>
+      <div class="container-tit">
+        <h1 class="titulo">Productos</h1></marquee>
        </div>
+      <div class="row" id="cards"></div>
+    </div>
+
+    <template id="template-footer">
+        <th scope="row" colspan="2">Total productos</th>
+        <td>10</td>
+        <td>
+            <button class="btn btn-danger btn-sm" id="vaciar-carrito">
+                vaciar todo
+            </button>
+        </td>
+        <td class="font-weight-bold">$ <span>5000</span></td>
+    </template>
     
-        <div class="container-tit">
-            <h1 class="titulo">Productos</h1>
-           </div>
-           <div class="container text-center rectangulo" id="recrojo">
+    <template id="template-carrito">
+      <tr>
+        <th scope="row">id</th>
+        <td>Café</td>
+        <td>1</td>
+        <td>
+            <button class="btn btn-info btn-sm">
+                +
+            </button>
+            <button class="btn btn-danger btn-sm">
+                -
+            </button>
+        </td>
+        <td>$ <span>500</span></td>
+      </tr>
+    </template>
 
-        <h3 class="titulo1">Merchandise oficial</h3>
-
-      </div>
-      <br>
-      <br>
-      <div class="container text-center">
-        <div class="row" id="couches">
-          <div class="col container my-5">
-            <div><img src= "https://i.ibb.co/vmpsFvX/Osiris.jpg" class="rounded-5" height="500" width="500" id="boton"></div>
-            <div class="container my-3">
-            <h1>Biit-shirt negra</h1>
-            <h2>$350.00</h2>
-            <div class="col"> 
-            </div>
-          </div>
-          </div>
-          <div class="col container my-5">
-            <div><img src="https://i.ibb.co/58RwHBj/Captura-de-Pantalla-2022-10-23-a-la-s-15-07-48.png" alt="Gray" class="rounded-5" height="500" width="500" id="boton"></div>
-            <div class="container my-3">
-            <h1>Biit-shirt gris</h1> 
-            <h2>$350.00</h2>
-          </div>
-          </div>
-          <div class="col container my-5">
-            <div><img src="https://i.ibb.co/F3cjVr3/gorrabiit.jpg" alt="Gorra" class="rounded-5" height="500" width="500" id="boton"></div>
-            <div class="container my-3">
-            <h1>Biit-cap negra </h1>
-            <div class="col"> 
-                <h2>$250.00</h2>
-            </div>
-          </div>
-          </div>
-          <div class="col container my-5">
-            <div><img src="https://i.ibb.co/c2YMW4t/Captura-de-Pantalla-2022-10-23-a-la-s-20-03-23.png" alt="ilse" class="rounded-5" height="500" width="500" id="boton"></div>
-            <div class="container my-3">
-            <h1>Biit-pets</h1>
-            <h2>$250.00</h2>
-            <div class="col"> <h5 id="info">
-            </div>
-          </div>
+    <template id="template-card">
+      <div class="col-12 mb-2 col-md-4">
+        <div class="card">
+            <img src="" alt="" class="card-img-top">
+          <div class="card-body">
+            <h5>Titulo</h5>
+            <p>precio</p>
+            <button class="btn btn-dark">Comprar</button>
           </div>
         </div>
       </div>
- 
+    </template>
 
-    
+     <!--Footer de la página-->
+     <%- include('./partials/_footer'); %>
 
-    <section id="product-container" class="product-container">
-    </section>
-    <%- include('./partials/_footer'); %>
+  <!-- Script Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <!--Js de boostrap-->
+  <script src="/js/bootstrap.bundle.min.js"></script>
 
-    <script src="/javascript.js"></script>
-    <script src="/js/bootstrap.bundle.min.js"></script>
-    <script src="productos.js"></script>
-</body>
-
+    <script src="/carrito.js"></script>
+  </body>
 </html>

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap'); 
+
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+  color: inherit;
+  font-family: "Teko", sans-serif;
+
+}
+
+html{
+    font-size: 20px;
+    @media screen and (max-width 600px){
+      font-size: 12px;
+      
+    
+      
+    }
+  }
+  
+  
+  #logo {
+    margin-left: 35px;
+  }
+  
+  .after:after {
+    content: " ";
+    display: flex;
+    height: 9px;
+    background:#e42313;
+    width: 100%;
+    left: 100%;
+    top: calc(50% - 2px);
+  }
+
+  #after {
+    content: " ";
+    display: block;
+    height: 9px;
+    background:#e42313;
+    width: 100%;
+    left: 100%;
+    top: calc(50% - 2px);
+  }
+  
+  #navbarNavDropdown {
+    justify-content:flex-end;
+    font-size: 1.5rem;
+    font-family: 'Teko', sans-serif;
+  }
+  
+  
+  
+  .nav-link:hover {
+    background:#e42313;
+    box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+  }
+
+  .container-foto{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+  }
+  
+  .container-tit{
+    text-align: center;
+    background-color: #e42313;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    min-height: 50px;
+    margin-top:auto;
+  }
+
+  .titulo{
+    color: white;
+    font-size: 3.5rem;
+    font-family: "Teko", sans-serif;
+    min-width: 250;
+  }
