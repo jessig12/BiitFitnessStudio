@@ -214,14 +214,7 @@ object-fit: cover;
 }
 form{
   max-width:100%;
-<<<<<<< HEAD
   background:rgba(245, 50, 50, 0.72);
-=======
-  background: #e424139b;
-  font-family: 'Teko', sans-serif;
-  color: black;
-  font-size:1.5vw;
->>>>>>> cea23ff54b73c36397389fc2a279cacbce92ecaa
   margin:17vh auto 0 auto;
   padding : 40px;
   border-radius: 3px;
@@ -230,14 +223,9 @@ form{
 h5{
   margin:0;
   text-align:center;
-<<<<<<< HEAD
   font-family: 'Teko', sans-serif;
   color: #ffffff;
   font-size: 35px;
-=======
-  font-size: 2.2rem;
-  font-family: "Teko", sans-serif;
->>>>>>> cea23ff54b73c36397389fc2a279cacbce92ecaa
 }
 #namel,#emaill,#phonel,#asuntol,#messagel,#checkl{
   font-family: 'Teko', sans-serif;
@@ -260,11 +248,8 @@ input, textarea{
   border-bottom:1px solid #000000; 
 }
  input[type= "text"]:focus, textarea:focus{
-<<<<<<< HEAD
   border-bottom: 1px solid #e42313(255, 0, 106);
-=======
   border-bottom: 1px solid #000000;;
->>>>>>> cea23ff54b73c36397389fc2a279cacbce92ecaa
  }
 
  textarea::-webkit-scrollbar{
@@ -283,27 +268,18 @@ input[type="submitf"]{
   margin-top:30px;
   width:90;
   max-width:200px;
-<<<<<<< HEAD
   background:linear-gradient(to right, #e42313, #e42313(255,67,61));
 color: #e42313;
-=======
-  background:linear-gradient(to right,#000000, #000000;);
-color: red;
->>>>>>> cea23ff54b73c36397389fc2a279cacbce92ecaa
  font-size:17px;
  cursor: pointer;
  border-radius:3px;
 }
 
 .error{
-<<<<<<< HEAD
-  color:blue;
+  color:rgb(209, 209, 232);
   font-family: 'Teko', sans-serif;
   font-size: 30px;
   padding: 10px;
-=======
-  color:rgb(0, 0, 201);
->>>>>>> cea23ff54b73c36397389fc2a279cacbce92ecaa
 }
 
 .error-border{
