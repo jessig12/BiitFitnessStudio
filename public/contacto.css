@@ -18,16 +18,16 @@ body{
 }
 
 h1{
-  color: white;
-  font-size: 2.5rem;
+  color: rgb(206, 23, 23);
+  font-size: 3.5rem;
   font-family: "Teko", sans-serif;
   min-width: 250px;
   margin-top:auto;
-  -webkit-text-stroke: 1px black;
+
 }
 h2{
   color: white;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-family: "Teko", sans-serif;
   min-width: 250;
 }
@@ -42,7 +42,7 @@ h2{
 
 }
 #iconf{
-  font-size: 4vw;
+  font-size: 5vw;
 }
 .text1 ,h4{
   color: white;
@@ -85,8 +85,8 @@ h2{
 #col-txt1, h3{
   margin-top: 50px;
   font-family: 'Teko', sans-serif;
-  color:white;
-  font-size: 2.5rem;
+  color:rgb(243, 4, 4);
+  font-size: 3.5rem;
   text-decoration: underline;
 }
 
@@ -154,24 +154,24 @@ h2{
 
   .btn:hover {
     background: rgb(0, 0, 0); 
-    box-shadow: 0 0 10px rgb(239, 0, 0), 0 0 40px rgb(245, 7, 7), 0 0 80px rgb(247, 6, 6);
+    box-shadow: 0 0 10px rgb(0, 0, 0), 0 0 40px rgb(0, 0, 0), 0 0 80px rgb(2, 2, 2);
   }
 
   .sheSwimm{
     width: 100%;
-    height: 216px;
-    background-image: url("https://i.ibb.co/xSrGLJy/sheSwimm.jpg");
+    height: 500px;
+    background-image: url("https://i.ibb.co/yBDGBzN/perrito-c.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     display:flex;
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
     
 }
 #principalcont{
   width: 100%;
-    height: 556px;
+  height: 556px;
   background-image: url("https://i.ibb.co/gR09xqT/Whats-App-Image-2022-10-13-at-1-57-07-PM.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -187,8 +187,14 @@ h2{
   color: #ffffff;
   font-size: 35px;
   padding: 10px;
- 
 }
+.pwhitee{
+  font-family: 'Teko', sans-serif;
+  color: #ffffff;
+  font-size: 35px;
+  padding: 10px;
+}
+
 .parr{
   font-family: 'Teko', sans-serif;
   color: black;
@@ -197,7 +203,7 @@ h2{
 }
 #imgfinal{
   width: 100%;
-  height: 400px;
+  height: 700px;
   background-image: url("https://i.ibb.co/X4672pd/Whats-App-Image-2022-10-13-at-1-57-08-PM-9.jpg");
 background-repeat: no-repeat;
 background-position: center center;
@@ -206,33 +212,19 @@ object-fit: cover;
 }
 
 #contenedor1{
-  height: 400px;
+  height: 500px;
   padding:100px;
   align-items: center;
   justify-content: center center;
-    background-color: rgba(233, 27, 27, 0.323);
+  background-color:#e424138e;
+  
 }
 form{
   max-width:100%;
-<<<<<<< HEAD
-  background:rgba(245, 50, 50, 0.72);
-=======
-<<<<<<< HEAD
-  background:  #e42413b5;
+  background:  #000000b5;
   font-family: 'Teko', sans-serif;
   color: black;
   font-size:2rem;
-=======
-<<<<<<< HEAD
-  background:rgba(245, 50, 50, 0.72);
-=======
-  background: #e424139b;
-  font-family: 'Teko', sans-serif;
-  color: black;
-  font-size:1.5vw;
->>>>>>> cea23ff54b73c36397389fc2a279cacbce92ecaa
->>>>>>> 48e74b8a39b4077d84b6495b061c7348c721ce8e
->>>>>>> 2a767373a066cb28ed4945e40253612d01d738f9
   margin:17vh auto 0 auto;
   padding : 40px;
   border-radius: 3px;
@@ -241,24 +233,9 @@ form{
 h5{
   margin:0;
   text-align:center;
-<<<<<<< HEAD
-  font-family: 'Teko', sans-serif;
-  color: #ffffff;
-  font-size: 35px;
-=======
-<<<<<<< HEAD
-  font-size: 2.3rem;
-=======
-<<<<<<< HEAD
-  font-family: 'Teko', sans-serif;
-  color: #ffffff;
-  font-size: 35px;
-=======
-  font-size: 2.2rem;
->>>>>>> 48e74b8a39b4077d84b6495b061c7348c721ce8e
+  color: #e42313;
+  font-size: 3.5rem;
   font-family: "Teko", sans-serif;
->>>>>>> cea23ff54b73c36397389fc2a279cacbce92ecaa
->>>>>>> 2a767373a066cb28ed4945e40253612d01d738f9
 }
 #namel,#emaill,#phonel,#asuntol,#messagel,#checkl{
   font-family: 'Teko', sans-serif;
@@ -269,6 +246,7 @@ h5{
 label{
   display:block;
   margin:20px 0;
+  color: #000000;
 }
 
 input, textarea{
@@ -282,7 +260,6 @@ input, textarea{
 }
  input[type= "text"]:focus, textarea:focus{
   border-bottom: 1px solid #e42313(255, 0, 106);
-  border-bottom: 1px solid #000000;;
  }
 
  textarea::-webkit-scrollbar{
@@ -290,7 +267,7 @@ input, textarea{
  }
 
  textarea::-webkit-scrollbar-thumb{
-  background-color: aqua;
+  background-color: rgb(0, 0, 0);
  }
 
 .center{
@@ -298,38 +275,21 @@ input, textarea{
 }
 
 input[type="submitf"]{
-  margin-top:30px;
-  width:90;
-  max-width:200px;
-  background:linear-gradient(to right, #e42313, #e42313(255,67,61));
-color: #e42313;
+margin-top:30px;
+width:90;
+max-width:200px;
+ background:linear-gradient(to right, #000000, #000000(255,67,61));
+ color: #000000;
  font-size:17px;
  cursor: pointer;
  border-radius:3px;
 }
 
 .error{
-<<<<<<< HEAD
   color:rgb(209, 209, 232);
   font-family: 'Teko', sans-serif;
   font-size: 30px;
   padding: 10px;
-=======
-<<<<<<< HEAD
-  color:rgb(255, 255, 255);
-  font-size: 1.8rem;
-  font-family: "Teko", sans-serif;
-=======
-<<<<<<< HEAD
-  color:blue;
-  font-family: 'Teko', sans-serif;
-  font-size: 30px;
-  padding: 10px;
-=======
-  color:rgb(0, 0, 201);
->>>>>>> cea23ff54b73c36397389fc2a279cacbce92ecaa
->>>>>>> 48e74b8a39b4077d84b6495b061c7348c721ce8e
->>>>>>> 2a767373a066cb28ed4945e40253612d01d738f9
 }
 
 .error-border{
@@ -351,4 +311,43 @@ color: #e42313;
   color: #ffffff;
   font-size: 30px;
   padding: 10px;
+}
+
+#recuadro{
+  text-align: center;
+  background-color:#e42313;
+  opacity: 0.80;
+
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  border-radius:50px 50px 50px 50px;
+}
+
+#lastBtn{
+  background-color: #000000;
+}
+
+#recuadro2{
+  text-align: center;
+  background-color:#e42313;
+  opacity: 0.80;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius:50px 50px 50px 50px;
+}
+
+
+
+#imgfinal:hover {
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  font-size: 1.1rem;
+  text-align: center;
+  box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+  justify-content: center;
+  align-items: center;
 }
