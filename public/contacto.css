@@ -214,7 +214,25 @@ object-fit: cover;
 }
 form{
   max-width:100%;
+<<<<<<< HEAD
   background:rgba(245, 50, 50, 0.72);
+=======
+<<<<<<< HEAD
+  background:  #e42413b5;
+  font-family: 'Teko', sans-serif;
+  color: black;
+  font-size:2rem;
+=======
+<<<<<<< HEAD
+  background:rgba(245, 50, 50, 0.72);
+=======
+  background: #e424139b;
+  font-family: 'Teko', sans-serif;
+  color: black;
+  font-size:1.5vw;
+>>>>>>> cea23ff54b73c36397389fc2a279cacbce92ecaa
+>>>>>>> 48e74b8a39b4077d84b6495b061c7348c721ce8e
+>>>>>>> 2a767373a066cb28ed4945e40253612d01d738f9
   margin:17vh auto 0 auto;
   padding : 40px;
   border-radius: 3px;
@@ -223,9 +241,24 @@ form{
 h5{
   margin:0;
   text-align:center;
+<<<<<<< HEAD
   font-family: 'Teko', sans-serif;
   color: #ffffff;
   font-size: 35px;
+=======
+<<<<<<< HEAD
+  font-size: 2.3rem;
+=======
+<<<<<<< HEAD
+  font-family: 'Teko', sans-serif;
+  color: #ffffff;
+  font-size: 35px;
+=======
+  font-size: 2.2rem;
+>>>>>>> 48e74b8a39b4077d84b6495b061c7348c721ce8e
+  font-family: "Teko", sans-serif;
+>>>>>>> cea23ff54b73c36397389fc2a279cacbce92ecaa
+>>>>>>> 2a767373a066cb28ed4945e40253612d01d738f9
 }
 #namel,#emaill,#phonel,#asuntol,#messagel,#checkl{
   font-family: 'Teko', sans-serif;
@@ -276,10 +309,27 @@ color: #e42313;
 }
 
 .error{
+<<<<<<< HEAD
   color:rgb(209, 209, 232);
   font-family: 'Teko', sans-serif;
   font-size: 30px;
   padding: 10px;
+=======
+<<<<<<< HEAD
+  color:rgb(255, 255, 255);
+  font-size: 1.8rem;
+  font-family: "Teko", sans-serif;
+=======
+<<<<<<< HEAD
+  color:blue;
+  font-family: 'Teko', sans-serif;
+  font-size: 30px;
+  padding: 10px;
+=======
+  color:rgb(0, 0, 201);
+>>>>>>> cea23ff54b73c36397389fc2a279cacbce92ecaa
+>>>>>>> 48e74b8a39b4077d84b6495b061c7348c721ce8e
+>>>>>>> 2a767373a066cb28ed4945e40253612d01d738f9
 }
 
 .error-border{

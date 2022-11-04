@@ -1,0 +1,74 @@
+[
+    {
+      "precio": 250,
+      "id": 1,
+      "title": "Biit-Shirt Negra",
+      "thumbnailUrl": "https://i.ibb.co/k1c7LZN/i1.jpg"
+    },
+    {
+      "precio": 250,
+      "id": 2,
+      "title": "Biit-Shirt Gris",
+      "thumbnailUrl": "https://i.ibb.co/7jm5W8L/i2.jpg"
+    },
+    {
+      "precio": 200,
+      "id": 3,
+      "title": "Biit-Cap Negra",
+      "thumbnailUrl": "https://i.ibb.co/M5m4Xnd/i3.jpg"
+    },
+    {
+      "precio": 100,
+      "id": 4,
+      "title": "Biit-Pets",
+      "thumbnailUrl": "https://i.ibb.co/bd9sxDY/i4.jpg"
+    },
+    {
+      "precio": 850,
+      "id": 5,
+      "title": "Proteína Sabor Chocolate",
+      "thumbnailUrl": "https://i.ibb.co/cw6ktqF/i5.jpg"
+    },
+    {
+      "precio": 850,
+      "id": 6,
+      "title": "Proteína Sabor Fresa",
+      "thumbnailUrl": "https://i.ibb.co/3k14R8C/i6.jpg"
+    },
+    {
+        "precio": 850,
+        "id": 7,
+        "title": "Proteína Sabor Vainilla",
+        "thumbnailUrl": "https://i.ibb.co/dcY28FQ/i7.jpg"
+      },
+      {
+        "precio": 810,
+        "id": 8,
+        "title": "Proteína Sabor Mango",
+        "thumbnailUrl": "https://i.ibb.co/dcY28FQ/i7.jpg"
+      },
+      {
+        "precio": 850,
+        "id": 9,
+        "title": "Proteína Sabor Sandía",
+        "thumbnailUrl": "https://i.ibb.co/dcY28FQ/i7.jpg"
+      },
+      {
+        "precio": 900,
+        "id": 10,
+        "title": "Conjunto Sporty",
+        "thumbnailUrl": "https://i.ibb.co/zP81VrC/i10.jpg"
+      },
+      {
+        "precio": 600,
+        "id": 11,
+        "title": "Backpack",
+        "thumbnailUrl": "https://i.ibb.co/qrxrNd0/i11.jpg"
+      },
+      {
+        "precio": 150,
+        "id": 12,
+        "title": "Red Shaker",
+        "thumbnailUrl": "https://i.ibb.co/v4NQJy4/i12.jpg"
+      }
+  ]
