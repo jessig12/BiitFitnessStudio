@@ -48,15 +48,8 @@ form.addEventListener("submit", e => {
   
 
   }
-<<<<<<< HEAD
 })
 
-
-
- 
-=======
-
-})
 
 
 let main = function(){
@@ -115,4 +108,3 @@ save_localStorage(myObject);
  }
 
 main();
->>>>>>> cea23ff54b73c36397389fc2a279cacbce92ecaa
