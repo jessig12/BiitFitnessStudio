@@ -53,6 +53,9 @@ app.get('/biitfam', (req, res) => {
 app.get('/miembros', (req, res) => {
   res.render('miembros');// archivo dentro de ./views
 });
+app.get('/bienvenido', (req, res) => {
+  res.render('bienvenido');// archivo dentro de ./views
+});
 
 
 

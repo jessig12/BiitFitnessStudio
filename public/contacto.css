@@ -154,7 +154,8 @@ h2{
 
   .btn:hover {
     background: rgb(0, 0, 0); 
-    box-shadow: 0 0 10px rgb(0, 0, 0), 0 0 40px rgb(0, 0, 0), 0 0 80px rgb(2, 2, 2);
+    box-shadow: 0 0 10px rgb(0, 0, 0), 0 0 40px rgb(252, 10, 10), 0 0 80px rgb(2, 2, 2);
+  
   }
 
   .sheSwimm{
@@ -305,19 +306,20 @@ max-width:200px;
   color: #ffffff;
   font-size: 30px;
   padding: 10px;
+  width: 200px;
 }
 #botonMember{
   font-family: 'Teko', sans-serif;
   color: #ffffff;
   font-size: 30px;
   padding: 10px;
+  width: 200px;
 }
 
 #recuadro{
   text-align: center;
   background-color:#e42313;
   opacity: 0.80;
-
   height: 350px;
   justify-content: center;
   align-items: center;

@@ -26,7 +26,6 @@
       }
       
       .body2{
-        background-image: url('https://i.ibb.co/w7FKgJ7/quejas-Background.jpg');
         background-color: rgb(0, 0, 0);
         font-family: "Teko", sans-serif;
         background-repeat: no-repeat;
@@ -53,8 +52,8 @@
 }
 
 form{
-  max-width:100%;
-  background:  #000000d3;
+  max-width:100%; 
+   background:  #000000d3;
   font-family: 'Teko', sans-serif;
   color: black;
   font-size:2.5rem;
@@ -63,5 +62,7 @@ form{
 
 main {
   margin-top: auto;
+  background-image: url(https://i.ibb.co/NCmHzBs/imagen1.jpg);
+  
   
 }
