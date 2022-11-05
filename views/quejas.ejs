@@ -22,35 +22,36 @@
 
 <main>
         <div class="container-fluid rectangulo" id="sec1">
-            <div class="container my-3 rectangulo">
+            <div class="container my-1 rectangulo">
                 <h1 class="titulo">QUEJAS Y SUGERENCIAS </h1>
             </div>
         </div>
 
         <!--formulario-->
             <form method="post" id="biit" class="registro" onsubmit="event.preventDefault(); validateForm()">
-                <div class="container " id="formulario">
-                    <div class="container-fluid">
+                    <div class="container">
                         <label for="email" class="form-label">Email</label>
                         <input type="email" class="form-control" id="email" placeholder="name@example.com">
                         <small class="error"></small>
                     </div>
-                    <div class="mb-3">
+                    <div class="container mb-3">
                         <label for="asunto" class="form-label">Add subject</label>
                         <textarea id="subject" class="form-control" placeholder="Asunto"></textarea>
                         <small class="error"></small>
                     </div>
-                    <div class="mb-3">
+                    <div class="container mb-3">
                         <label for="message" class="form-label">Complaints and suggestions</label>
                         <textarea class="form-control" id="message" placeholder="Escriba aqui su queja o sugerencia" rows="3"></textarea>
                         <small class="error"></small>
                     </div>
-                    <div class="mb-3 form-check">
+                    <div class="container mb-3 form-check">
                         <input type="checkbox" class="form-check-input" id="gridCheck">
                         <label class="form-check-label" for="gridCheck"> I'm not a robot</label>
                     </div>
-                    <button id="boton" type="submit"class="btn btn-danger btn-lg justify-content-center">Send</button>
+                    <div class="container mb-3 form-check">
+                    <button id="boton" type="submit"class="btn btn-danger btn-lg ">Send</button>
                     <p id="success"></p>
+                </div>
                     <br>
             </form>
     </main>
