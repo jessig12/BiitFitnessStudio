@@ -1,5 +1,4 @@
 
-
 function entrar() {
   const email = document.getElementById('inputEmail4').value;
   const password = document.getElementById('inputPassword').value;
@@ -17,10 +16,15 @@ function entrar() {
     localStorage.usuario = email
   }
   else if (email == "rodrigo@gmail.com" && password == '12345678') {
+    email = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/
     window.location.href = '/';
     localStorage.usuario = email
+  } 
+  else if (email == "" && password == "") {
+    alert('Error no ha escrito el correo o contraseña');
+
   } else {
-    alert('Error contraseña o correo incorrecto')
+    alert('Error contraseña o correo incorrecto');
   }
 
 }
