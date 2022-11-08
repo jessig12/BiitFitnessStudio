@@ -6,7 +6,7 @@ https://proyecto-presentacion1.netlify.app/
 https://eliprueba3.herokuapp.com/  se subio como prueba a Heroku 
 
 03 de Octubre del 2022
-https://biittfami.herokuapp.com/   se subio a heroku con modificaciones
+https://biitfitness.herokuapp.com/  se subio a heroku con modificaciones
 
 
 ## run project
