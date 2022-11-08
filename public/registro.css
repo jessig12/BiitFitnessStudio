@@ -44,7 +44,7 @@
 
 
 #titulo {
-  font-size: 3.5rem;
+  font-size: 2.8rem;
   color: black;
 }
 
@@ -60,3 +60,6 @@ main {
 }
 
 
+img{
+  object-fit: cover;
+}
