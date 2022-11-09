@@ -23,11 +23,24 @@ INSERT INTO `biitfamily`.`clientes`(`nombre`, `apellido`, `movil`, `direccion`) 
 INSERT INTO `biitfamily`.`clientes`(`nombre`, `apellido`, `movil`, `direccion`) VALUES ("Elizabeth", "Cruz", 5511121314,"calle 30 col. Azteca");
 INSERT INTO `biitfamily`.`clientes`(`nombre`, `apellido`, `movil`, `direccion`) VALUES ("Karla", "Garcia", 5521222324,"calle 30 col. Las Vegas");
 
-INSERT INTO  `biitfamily`.`ventas`(`fecha`, `idCliente`) VALUES(date(now()),1);
-INSERT INTO  `biitfamily`.`ventas`(`fecha`, `idCliente`) VALUES(date(now()),2);
-INSERT INTO  `biitfamily`.`ventas`(`fecha`, `idCliente`) VALUES(date(now()),3);
-INSERT INTO  `biitfamily`.`ventas`(`fecha`, `idCliente`) VALUES(date(now()),4);
-INSERT INTO  `biitfamily`.`ventas`(`fecha`, `idCliente`) VALUES(date(now()),5);
+INSERT INTO  `biitfamily`.`ventas`(`fecha`, `idCliente`) VALUES(date(now()),6);
+INSERT INTO  `biitfamily`.`ventas`(`fecha`, `idCliente`) VALUES(date(now()),7);
+INSERT INTO  `biitfamily`.`ventas`(`fecha`, `idCliente`) VALUES(date(now()),8);
+INSERT INTO  `biitfamily`.`ventas`(`fecha`, `idCliente`) VALUES(date(now()),9);
+INSERT INTO  `biitfamily`.`ventas`(`fecha`, `idCliente`) VALUES(date(now()),10);
+
+INSERT INTO  `biitfamily`.`detalleventa`(`idVenta`,`idproducto`, `cantidad`) value(8, 19, 2);
+INSERT INTO  `biitfamily`.`detalleventa`(`idVenta`,`idproducto`, `cantidad`) value(8, 20, 3);
+INSERT INTO  `biitfamily`.`detalleventa`(`idVenta`,`idproducto`, `cantidad`) value(8, 21, 1);
+SELECT * FROM `detalleventa`
+INNER JOIN `productos` ON `detalleventa`.`idProducto`=`productos`.`idProducto`
+ WHERE idVenta = 8;
+ 
+
+	
+
+
+
     
 
 
