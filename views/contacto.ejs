@@ -25,8 +25,6 @@
     <section class="sheSwimm" >
       <div class="container-sm text-center">
         <div class="row">
-          <h1>CONTÁCTANOS</h1>
-          <h1> Siempre dispuestos a apoyarte</h1>
         </div>
       </div>
     </section>
@@ -42,8 +40,8 @@
 
     <!--contenido pagina-->
     <section id="principalcont">
-      <div class="container " id="contenedor1">
-        <div id="cuadro" class="row text-center">
+      <div class="container ">
+        <div id="contenedor1" class="row text-center">
           <div class="col-md-4 ">
             <i class="fa-solid fa-phone" id="iconf"></i>
             <p class="parr">Llamanos desde cualquier parte de la republica</p>
@@ -61,24 +59,20 @@
     </section>
     <!--CONTENIDO SEGUNDA SECCION-->
     <div class="container text-center">
-      <h3>Se Parte de nuestra familia</h3>
-      <div class="row">
-        <div class="col-md my-5 ">
-          <p class="pwhite">Pregunta sobre nuestros programas personalizados o asesoramientos nutricionales</p>
-          <br>
-          <p class="pwhite">En Biit Fitness Studio estamos comprometidos en apoyarte. Queremos escuchar cualquier
+      <h3>SE PARTE DE NUESTRA FAMILIA</h3>
+      <div class="col-md">
+        <div id="recuadro2" class="col-md my-5 mx-4 ">
+          <p class="pwhite">Pregunta sobre nuestros programas personalizados o asesoramientos nutricionales. <br> En Biit Fitness Studio estamos comprometidos en apoyarte. Queremos escuchar cualquier
             recomendación o crítica para mejorar nuestra experiencia y servicios.</p>
         </div>
         <div class="col-md my-5" id="imgfinal">
-
         </div>
       </div>
-      <div class="row">
-        <div class="col ">
-
-          <p class="pwhite">Si deseas realizar una pregunta o sugerencia da click en : </p>
-          <a href="/quejas" type="submit"  id="lastBtn" class="btn btn-danger">APARTADO DE QUEJAS</a>
-          <p class="pwhite">Atencion a distancia <br> biitfit@correo.com</p>
+      <div id="recuadro" class="row">
+        <div class="col">
+          <p class="pwhitee">Si deseas realizar una pregunta o sugerencia da click en : </p>
+          <a href="/quejas" type="submit"  id="lastBtn" class="btn btn-danger">Quejas</a>
+          <p class="pwhitee">Atención a distancia <br> biitfit@correo.com</p>
         </div>
       </div>
     </div>
@@ -88,7 +82,7 @@
       <form method="post" id="biit" class="registro" onsubmit="event.preventDefault(); validateForm()">
         <h5 id="h5">REGISTRO BIIT FAMILY</h5>
         <div class="col">
-          <label for="name" id="namel" class="form-label">Nombre</label>
+          <label for="name" id="namel" class="form-label">Name</label>
           <input type="text" id="name" class="form-control" placeholder="Juan Escutia">
           <small class="error"></small>
         </div>
@@ -98,30 +92,30 @@
           <small class="error"></small>
         </div>
         <div class="col">
-          <label for="phone" id="phonel" class="form-label">Telefono</label>
+          <label for="phone" id="phonel" class="form-label">Movil</label>
           <input type="tel" class="form-control" id="phone">
           <small class="error"></small>
         </div>
         <div class="col">
-          <label for="asunto" id="asuntol" class="form-label">Asunto</label>
+          <label for="asunto" id="asuntol" class="form-label">Add subject</label>
           <input type="text" id="subject" class="form-control" name="asunto">
           <small class="error"></small>
         </div>
         <div class="col">
-          <label for="message" id="messagel" class="form-label">Mensaje</label>
-          <textarea id="message" class="form-control" placeholder="Dichoso mensaje"></textarea>
+          <label for="message" id="messagel" class="form-label">Message</label>
+          <textarea id="message" class="form-control" placeholder="Message"></textarea>
           <small class="error"></small>
         </div>
         <div class="row">
           <div class="form-check my-4">
             <input class="form-check-input" type="checkbox" id="gridCheck">
             <label class="form-check-label" id="checkl" for="gridCheck">
-              Acepto uso de mis datos
+              I accept use of my data
             </label>
           </div>
         </div>
         <div class="center">
-          <button id="botonMember" type="submit" class="btn btn-danger">NUEVO MIEMBRO</button>
+          <button id="botonMember" type="submit" class="btn btn-danger">New user</button>
           <p id="success"></p>
         </div>
       </form>

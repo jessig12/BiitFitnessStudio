@@ -144,5 +144,13 @@
     box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
   }
 
+  .container-tit{
+    text-align: center;
+    background-color: #e42313;
+    width: 100%;
+    padding: 20px;
+    min-height: 50px;
+    margin-top:auto;
+  }
   
   
