@@ -45,8 +45,7 @@
 #col-img1{
   margin-top: 30px;
   object-fit: cover;
-  width: 50%;
-  max-width: 100%;
+  max-width: 50%;
 }
 
 #col-txt1{
@@ -80,8 +79,7 @@
 
 #col-img2{
   object-fit: cover;
-  width: 50%;
-  max-width: 100%;
+  max-width: 50%;
 }
 
 #col-txt2{
