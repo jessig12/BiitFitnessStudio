@@ -23,7 +23,7 @@ INSERT INTO `biitfamily`.`clientes`(`nombre`, `apellido`, `movil`, `direccion`) 
 INSERT INTO `biitfamily`.`clientes`(`nombre`, `apellido`, `movil`, `direccion`) VALUES ("Elizabeth", "Cruz", 5511121314,"calle 30 col. Azteca");
 INSERT INTO `biitfamily`.`clientes`(`nombre`, `apellido`, `movil`, `direccion`) VALUES ("Karla", "Garcia", 5521222324,"calle 30 col. Las Vegas");
 
-INSERT INTO  `biitfamily`.`ventas`(`fecha`, `idCliente`) VALUES(date(now()),1);
+INSERT INTO  `biitfamily`.`ventas`(`fecha`, `idClientes`) VALUES(date(now()),1);
 INSERT INTO  `biitfamily`.`ventas`(`fecha`, `idCliente`) VALUES(date(now()),2);
 INSERT INTO  `biitfamily`.`ventas`(`fecha`, `idCliente`) VALUES(date(now()),3);
 INSERT INTO  `biitfamily`.`ventas`(`fecha`, `idCliente`) VALUES(date(now()),4);
