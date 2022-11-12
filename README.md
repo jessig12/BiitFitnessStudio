@@ -10,6 +10,10 @@ https://biitfitness.herokuapp.com/
   se subio a heroku con modificaciones
 
 
+11 de Octubre del 2022 
+https://github.com/jessig12/BiitBack    Creación del 2do repositorio para el back end
+
+
 ## run project
 
 ```
@@ -24,6 +28,3 @@ npm run start
 localhost:3000/
 ```
 
-11 de Octubre del 2022 
-Creación del 2do repositorio para el back end
-https://github.com/jessig12/BiitBack
