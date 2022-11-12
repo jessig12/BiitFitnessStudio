@@ -9,6 +9,10 @@ https://eliprueba3.herokuapp.com/  se subio como prueba a Heroku
 https://biitfitness.herokuapp.com/  se subio a heroku con modificaciones
 
 
+11 de Octubre del 2022 
+https://github.com/jessig12/BiitBack    Creación del 2do repositorio para el back end
+
+
 ## run project
 
 ```
