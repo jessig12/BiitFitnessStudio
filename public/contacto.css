@@ -217,23 +217,15 @@ object-fit: cover;
   padding:100px;
   align-items: center;
   justify-content: center center;
-  background-color:#e424138e;
+  background-color:#ff00008e;
   
 }
 form{
   max-width:100%;
-<<<<<<< HEAD
-  background:rgba(245, 50, 50, 0.72);
-  background: #e424139b;
   font-family: 'Teko', sans-serif;
   color: black;
-  font-size:1.5vw;
-=======
   background:  #000000b5;
-  font-family: 'Teko', sans-serif;
-  color: black;
   font-size:2rem;
->>>>>>> abb06027b52108192b784f00ffebb9b55f508697
   margin:17vh auto 0 auto;
   padding : 40px;
   border-radius: 3px;
@@ -242,18 +234,14 @@ form{
 h5{
   margin:0;
   text-align:center;
-<<<<<<< HEAD
   font-size: 2.3rem;
   font-family: 'Teko', sans-serif;
   color: #ffffff;
   font-size: 35px;
-  
-
-=======
   color: #e42313;
   font-size: 3.5rem;
   font-family: "Teko", sans-serif;
->>>>>>> abb06027b52108192b784f00ffebb9b55f508697
+
 }
 #namel,#emaill,#phonel,#asuntol,#messagel,#checkl{
   font-family: 'Teko', sans-serif;
@@ -306,15 +294,10 @@ max-width:200px;
 .error{
   color:rgb(209, 209, 232);
   font-family: 'Teko', sans-serif;
-<<<<<<< HEAD
-  font-family: 'Teko', sans-serif;
   font-size: 30px;
   padding: 10px;
- 
-=======
   font-size: 30px;
   padding: 10px;
->>>>>>> abb06027b52108192b784f00ffebb9b55f508697
 }
 
 .error-border{
