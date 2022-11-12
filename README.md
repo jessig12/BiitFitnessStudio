@@ -14,7 +14,7 @@ https://biitfitness.herokuapp.com/
 https://github.com/jessig12/BiitBack    Creación del 2do repositorio para el back end
 
 
-## run project
+## Run project
 
 ```
 npm install
