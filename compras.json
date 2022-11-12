@@ -1,0 +1,65 @@
+[
+  {
+    "productos": [
+      {
+        "id": "1",
+        "productsNumber": 1
+      },
+      {
+        "id": "2",
+        "productsNumber": 2
+      }
+    ],
+    "deliveryAddress": "lazaro cardenas 14, blabla",
+    "payment": {
+      "type": "tdc",
+      "cardNumber": "879546132654",
+      "ccv": "123",
+      "month": 10,
+      "year": 25
+    }, 
+    "userId": 1
+  },
+  {
+    "productos": [
+      {
+        "id": "1",
+        "productsNumber": 1
+      },
+      {
+        "id": "2",
+        "productsNumber": 2
+      }
+    ],
+    "deliveryAddress": "lazaro cardenas 14, blabla",
+    "payment": {
+      "type": "tdc",
+      "cardNumber": "879546132654",
+      "ccv": "123",
+      "month": 10,
+      "year": 25
+    }, 
+    "userId": 1
+  },
+  {
+    "productos": [
+      {
+        "id": "1",
+        "productsNumber": 1
+      },
+      {
+        "id": "2",
+        "productsNumber": 2
+      }
+    ],
+    "deliveryAddress": "lazaro cardenas 14, blabla",
+    "payment": {
+      "type": "tdc",
+      "cardNumber": "879546132654",
+      "ccv": "123",
+      "month": 10,
+      "year": 25
+    }, 
+    "userId": 2
+  }
+]
