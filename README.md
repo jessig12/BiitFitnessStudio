@@ -11,7 +11,7 @@ https://biitfitness.herokuapp.com/
 
 
 11 de Octubre del 2022 
-https://github.com/jessig12/BiitBack    Creación del 2do repositorio para el back end
+https://github.com/jessig12/BiitBack    Creación del 2do repositorio para el backend
 
 
 ## Run project
