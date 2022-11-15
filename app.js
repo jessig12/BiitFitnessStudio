@@ -102,7 +102,7 @@ app.get('/api/registro/:abc', (req, res) => {
   if (usuario) {
     res.send({ status: "ok", usuario })
   } else {
-    res.send({ status: "error", message: "no existe" })
+    res.send({ status: "error", message: "registro no existe" })
   }
 
 });

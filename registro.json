@@ -45,16 +45,16 @@
       "password": "12345678",
       "avatar": "https://i.ibb.co/QbmxwsQ/rodrigo.jpg"
     },
-    {},
     {
-      "email": "a@gmail.com",
-      "first_name": "Kaan",
-      "last_name": "Holt",
+      "id": 5,
+      "email": "ramon@gmail.com",
+      "first_name": "Ramon",
+      "last_name": "Morris",
       "movil": "5614568536",
-      "state": "CDMX",
-      "city": "Gustavo Amadero",
-      "password": "123456",
-      "avatar": "https://i.ibb.co/FYkKH68/kevin.jpg"
+      "state": "Yucatan",
+      "city": "Flores",
+      "password": "12345678",
+      "avatar": "https://i.ibb.co/QbmxwsQ/rodrigo.jpg"
     }
   ]
 }
