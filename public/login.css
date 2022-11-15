@@ -3,7 +3,6 @@
 body {
   cursor: url(../assets/manc-removebg-preview.png), default;
   font-family: "Teko", sans-serif;
-
   background-image: url(https://i.ibb.co/NCmHzBs/imagen1.jpg);
   background-repeat: no-repear;
   background-size: cover;
@@ -16,7 +15,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-
 }
 
 
@@ -91,5 +89,4 @@ footer {
 
 main {
   margin-top: auto;
-  
 }
