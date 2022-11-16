@@ -68,7 +68,8 @@ let dataRead = function(){
     document.querySelector("#inputLastName").value,
     document.querySelector("#inputEmail4").value,
     document.querySelector("#inputPassword4").value,
-    document.querySelector("#inputMovil").value
+    document.querySelector("#inputMovil").value,
+    document.querySelector("#inputAddress2").value,
   );
   let myObject = {
     //clave : valor
@@ -77,6 +78,7 @@ let dataRead = function(){
     email :document.querySelector("#inputEmail4").value,
     password :document.querySelector("#inputPassword4").value,
    movil :document.querySelector("#inputMovil").value,
+   address :document.querySelector("#inputAddress2").value,
   };
   console.log(myObject);
   //JSON debe ser un String
@@ -97,6 +99,7 @@ save_localStorage(myObject);
   document.querySelector("#inputEmail4").value = myObject.email
   document.querySelector("#inputPassword4").value = myObject.password
   document.querySelector("#inputMovil").value =  myObject.movil
+  document.querySelector("#inputAddress2").value =  myObject.address
  }
 
  let reset = function(){
@@ -105,6 +108,7 @@ save_localStorage(myObject);
   document.querySelector("#inputEmail4").value = "";
   document.querySelector("#inputPassword4").value = "";
   document.querySelector("#inputMovil").value = "";
+  document.querySelector("#inputAddress2").value = "";
  }
 
 main();
