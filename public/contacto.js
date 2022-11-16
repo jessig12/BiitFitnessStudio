@@ -4,7 +4,7 @@ const email = document.querySelector("#email");
 const message = document.querySelector("#message");
 const success = document.querySelector("#success");
 const errorNodes = document.querySelectorAll(".error");
-
+const btn = document.getElementById('botonMember');
 
 function validateForm(){
 
@@ -34,6 +34,22 @@ function validateForm(){
         }
         if(!errorFlag){
             success.innerText ="Bienvenido a la familia";
+            document.getElementById('biit')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   const serviceID = 'default_service';
+   const templateID = 'template_t5fx8vs';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Agregar';
+      alert('Mensaje enviado');
+    }, (err) => {
+      btn.value = 'Agregar';
+      alert(JSON.stringify(err));
+    });
+});
         }
 
 }
@@ -58,22 +74,6 @@ function emailIsValid(email){
 
 
 
-const btn = document.getElementById('boton');
-if(validateForm()==true){
-document.getElementById('biit')
- .addEventListener('submit', function(event) {
-   event.preventDefault();
 
-   const serviceID = 'default_service';
-   const templateID = 'template_t5fx8vs';
 
-   emailjs.sendForm(serviceID, templateID, this)
-    .then(() => {
-      btn.value = 'Agregar';
-      alert('Mensaje enviado');
-    }, (err) => {
-      btn.value = 'Agregar';
-      alert(JSON.stringify(err));
-    });
-});
-}
+
