@@ -10,7 +10,7 @@ https://biitfitness.herokuapp.com/  se subio a heroku con modificaciones
 
 
 11 de Noviembre del 2022 
-https://github.com/kevinherreroslechuga/Biitfitback    Creación del 2do repositorio para el backend
+https://github.com/kevinherreroslechuga/biitfitback   Creación del 2do repositorio para el backend
 
 18 de noviembre del 2022
 https://biitfitstudio.herokuapp.com  se subio a Heroku el backend JAVA
